@@ -1,0 +1,35 @@
+2019-08-29:10:57:06 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   588  cd slides/
+2019-08-29:10:57:07 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   589  ls
+2019-08-29:10:57:24 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   590  cp ../../csf/slides/lecture-introduction.tex .
+2019-08-29:10:57:27 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   591  open lecture-introduction.tex 
+2019-08-29:11:10:29 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   592  cp ../../csf/slides/jhu* .
+2019-08-29:11:10:42 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   593  cp ../../csf/slides/foils.* .
+2019-08-29:11:10:55 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   594  cp ../../csf/slides/fltfonts.def .
+2019-08-29:11:11:03 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   595  cp ../../csf/slides/foil* .
+2019-08-29:11:11:11 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   596  cp ../../csf/slides/pause.sty .
+2019-08-29:11:12:53 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   597  ls ..
+2019-08-29:11:12:56 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   598  ls ~/Latex/
+2019-08-29:11:13:14 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   599  ls ~/Latex/lorelei/*tex
+2019-08-29:11:15:26 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   600  vi ~/Latex/mt-class/slides/lecture-introduction.tex 
+2019-08-29:11:15:29 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   601  ls ~/Code/
+2019-08-29:11:15:30 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   602  ls ~/Code/bin/
+2019-08-29:11:47:22 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   603  open ~/Latex/mt-class/slides/lecture-introduction.tex 
+2019-08-29:11:48:48 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   604  cp -p ~/Latex/mt-class/slides/google-translate-mar2017-french-* .
+2019-08-29:12:01:55 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   605  ls ~/
+2019-08-29:12:02:04 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   606  ls ~/Documents/
+2019-08-29:12:02:16 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   607  ls ~/Desktop/
+2019-08-29:12:03:31 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   608  ls ~/Desktop/
+2019-08-29:12:03:35 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   609  ls ~/Desktop/
+2019-08-29:12:03:43 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   610  ls -l ~/Desktop/Screen\ Shot\ 2019-08-29\ at\ 12.0*
+2019-08-29:12:04:01 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   611  mv '/Users/pkoehn/Desktop/Screen Shot 2019-08-29 at 12.01.31 PM.png' information-retrieval1.png
+2019-08-29:12:04:11 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   612  mv '/Users/pkoehn/Desktop/Screen Shot 2019-08-29 at 12.03.05 PM.png' information-retrieval2.png
+2019-08-29:12:04:20 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   613  mv '/Users/pkoehn/Desktop/Screen Shot 2019-08-29 at 12.03.27 PM.png' information-retrieval2.png
+2019-08-29:12:04:23 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   614  mv '/Users/pkoehn/Desktop/Screen Shot 2019-08-29 at 12.03.27 PM.png' information-retrieval3.png
+2019-08-29:12:04:36 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   615  mv information-retrieval2.png information-retrieval3.png
+2019-08-29:12:05:21 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   616  mv '/Users/pkoehn/Desktop/Screen Shot 2019-08-29 at 12.05.08 PM.png' information-retrieval2.png
+2019-08-29:12:05:23 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   617  ls -l 
+2019-08-29:12:06:22 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   618  open information-retrieval1.png 
+2019-08-29:12:21:57 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   619  ls
+2019-08-29:12:26:22 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   620  ls
+2019-08-29:12:35:17 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   621  open question-answering.png
+2019-08-29:12:35:43 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   622  open question-answering.jpeg 
