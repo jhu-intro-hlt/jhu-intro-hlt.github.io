@@ -33,3 +33,75 @@
 2019-08-29:12:26:22 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   620  ls
 2019-08-29:12:35:17 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   621  open question-answering.png
 2019-08-29:12:35:43 pkoehn-mbp /Users/pkoehn/Latex/intro-hlt/slides   622  open question-answering.jpeg 
+2019-10-23:21:14:06 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   512  cd latex-sources/
+2019-10-23:21:14:07 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   513  ls
+2019-10-23:21:14:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   514  cp lecture-introduction.tex lecture-information-extraction.tex
+2019-10-23:21:14:28 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   515  open lecture-information-extraction.tex
+2019-10-23:21:15:43 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   516  cal
+2019-10-23:21:17:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   517  vi ~/LaTex/csf/slides/lecture-x86-intro.tex 
+2019-10-23:21:23:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   518  ls -lt | head
+2019-10-23:21:23:46 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   519  ls knowledge-wikipedia_files/
+2019-10-23:21:23:58 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   520  rm -rf knowledge-wikipedia*
+2019-10-23:21:24:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   521  ls -lt ~/Downloads/ | head
+2019-10-23:21:24:50 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   522  ls -lt ~/Desktop/ | head
+2019-10-23:21:25:04 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   523  open ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.22.40\ PM.png 
+2019-10-23:21:25:14 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   524  open ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.24.13\ PM.png 
+2019-10-23:21:25:26 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   525  rm ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.24.13\ PM.png 
+2019-10-23:21:25:43 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   526  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.22.40\ PM.png wikipedia-knowledge.png
+2019-10-23:21:27:30 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   527  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.27.05\ PM.png nytimes-article.png
+2019-10-23:21:29:57 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   528  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.29.44\ PM.png research-paper-ie.png
+2019-10-23:21:34:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   529  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.34.26\ PM.png obama-elected.png
+2019-10-23:21:56:11 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   530  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.55.13\ PM.png tottenham-bayern1.png
+2019-10-23:21:56:21 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   531  mv ~/Desktop/Screen\ Shot\ 2019-10-23\ at\ 9.55.48\ PM.png tottenham-bayern2.png
+2019-10-23:22:13:02 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   532  open ~/LaTex/csf/slides/lecture-introduction.tex 
+2019-10-23:22:43:21 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   533  grep bf ~/LaTex/csf/slides/lecture-introduction.tex 
+2019-10-23:23:35:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   534  open ~/LaTex/ai/slides/lecture-knowledge-representation.tex 
+2019-10-25:18:57:10 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   535  mv ~/Desktop/Screen\ Shot\ 2019-10-25\ at\ 6.55.25\ PM.png jimmy-carter1.png
+2019-10-25:18:57:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   536  mv ~/Desktop/Screen\ Shot\ 2019-10-25\ at\ 6.56.18\ PM.png jimmy-carter2.png 
+2019-10-25:19:06:52 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   537  cp jimmy-carter2.png jimmy-carter2a.png
+2019-10-25:19:06:58 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   538  open jimmy-carter2a.png
+2019-10-25:21:21:17 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   539  grep -i co-reference ~/LaTex/emnlp/emnlp*tex
+2019-10-25:21:21:22 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   540  grep -i coreference ~/LaTex/emnlp/emnlp*tex
+2019-10-25:21:21:31 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   541  grep -i pron ~/LaTex/emnlp/emnlp*tex
+2019-10-25:21:21:49 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   542  grep -i co-reference ~/LaTex/anlp/*tex
+2019-10-25:21:21:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   543  grep -i coreference ~/LaTex/anlp/*tex
+2019-10-25:21:28:01 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   544  grep -i happyland ~/LaTex/*/*tex
+2019-10-25:21:28:11 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   545  open /Users/pkoehn/LaTex/dil/dil13.tex
+2019-10-26:00:10:15 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   546  open ~/LaTex/ai/slides/lecture-knowledge-representation.tex 
+2019-10-26:00:15:00 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   547  wget https://csdl-images.computer.org/trans/tk/2015/10/figures/jayar1-2426696.gif
+2019-10-26:00:15:05 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   548  curl https://csdl-images.computer.org/trans/tk/2015/10/figures/jayar1-2426696.gif
+2019-10-26:00:15:21 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   549  curl https://csdl-images.computer.org/trans/tk/2015/10/figures/jayar1-2426696.gif > knowledge-graphs.gif
+2019-10-26:00:15:32 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   550  convert knowledge-graphs.gif knowledge-graphs.png
+2019-10-26:00:17:21 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   551  curl https://csdl-images.computer.org/trans/tk/2015/10/figures/jayar1-2426696.gif > knowledge-graphs.gif
+2019-10-26:00:17:45 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   552  convert knowledge-graphs.gif knowledge-graphs.png
+2019-10-26:00:18:30 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   553  brew cask install graphviz
+2019-10-26:00:19:47 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   554  port install graphviz
+2019-10-26:00:19:56 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   555  sudo port install graphviz
+2019-10-26:00:28:43 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   556  open knowledge-graphs.gif 
+2019-10-26:00:29:02 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   557  open knowledge-graphs.gif 
+2019-10-26:00:29:36 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   558  mv ~/Downloads/knowledge-graphs.png knowledge-graph.png
+2019-10-26:00:29:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   559  rm knowledge-graphs.gif 
+2019-10-26:00:30:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   560  cp ~/LaTex/ai/slides/scripts-actions.png .
+2019-10-26:00:30:36 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   561  cp ~/LaTex/ai/slides/frame-example.png .
+2019-10-26:00:30:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   562  cp ~/LaTex/ai/slides/ontology.png .
+2019-10-26:00:31:33 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   563  open ontology.png 
+2019-10-26:00:32:25 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   564  cp ontology.png ~/LaTex/ai/slides/
+2019-10-26:00:33:42 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   565  rm scripts-actions.png 
+2019-10-26:00:34:04 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   566  cp -p ~/LaTex/ai/slides/scripts-example-restaurant.png .
+2019-10-26:11:24:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   567  clsp
+2019-10-27:01:59:56 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   568  clsp
+2019-10-27:12:51:48 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   569  clsp
+2019-10-27:20:51:49 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   570  clsp
+2019-10-28:06:49:00 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   571  clsp
+2019-10-28:09:09:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   572  date
+2019-10-28:12:14:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   573  qstat -u pkoehn | grep train | cut -d\  -f 3-16 | uniq -c 
+2019-10-28:14:02:12 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   574  open ~/LaTex/misc/signature.jpg 
+2019-10-28:14:26:29 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   575  ls
+2019-10-28:14:27:35 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   576  ls -lt | head
+2019-10-28:14:27:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   577  ls
+2019-10-28:14:27:45 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   578  ls ..
+2019-10-28:14:28:28 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   579  ls
+2019-10-28:14:41:12 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   580  grep java .bash_history.local 
+2019-10-28:14:41:29 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   581  grep java ~/LaTex/csf/slides/.bash_history.local 
+2019-10-28:14:41:45 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   582  java -jar ~/Code/bin/pp4p.jar lecture-information-extraction.pdf lecture-information-extraction.view.pdf
+2019-10-28:14:41:47 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   583  ls
