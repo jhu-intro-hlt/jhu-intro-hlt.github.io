@@ -1,0 +1,197 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.1in}
+\renewcommand{\baselinestretch}{1.1}
+
+\begin{document}
+\thispagestyle{empty}
+
+\centerline{\Huge\bf Final Exam - Example Questions}
+\vskip .5in
+\centerline{\LARGE\bf 601.467/667}
+\vskip .1in
+\centerline{\LARGE\bf Introduction to Human Language Technology}
+\vskip .2in
+\centerline{\Large Fall 2019}
+\vskip .2in
+\centerline{\Large Johns Hopkins University}
+\vskip 1in
+
+{\large
+
+
+This document contains example questions %from a similar class to ``Introduction to Human Language Technology''
+that should give an idea about what to expect in the final exam. We expect you to understand the main
+concepts and algorithms presented in class. Keep in mind, however, that questions will
+cover a broader range of topics (anything in the second part of the course) that indicated here with
+these examples --- which are only about the initial lectures on language models, syntax and semantics.
+
+}
+
+\newpage
+\begin{enumerate}
+\item {\bf Language Model}
+
+Given the statistics below about unigram and bigram counts in a corpus, and discounting from a smoothing method, what probability is assigned to the bigram $p(\text{\em water}|\text{\em drink})$?
+
+\begin{tabular}{ccc}
+\begin{tabular}{c|c}
+unigram & count \\ \hline
+{\em beer} & 10 \\
+{\em wine} & 5 \\
+{\em soda} & 1 \\
+{\em water} & 1 \\
+other & 84 \\
+\end{tabular}
+&
+\begin{tabular}{c|c}
+bigram & count \\ \hline
+{\em drink beer} & 5 \\
+{\em drink wine} & 2 \\
+{\em drink soda} & 1 \\
+{\em drink milk} & 1 \\
+{\em drink juice} & 1 \\
+\end{tabular}
+&
+\begin{tabular}{c|c}
+count & discounted \\ \hline
+1 & 0.5 \\ 
+2 & 1.0 \\
+3 & 1.8 \\
+4 & 2.9 \\
+5 & 4.0 \\
+\end{tabular}
+\end{tabular}
+
+The bigram table is comprehensive, all bigrams starting with {\em drink} are given. The discounting is only used for the bigram model, the unigram model is not smoothed. Note: Not all of the given information is relevant.
+
+{\em{\bf  Solution:}\\
+drink beer 5 $\rightarrow$ 4.0/10 $\rightarrow$ 0.4\\
+drink wine 2 $\rightarrow$ 1.0/10 $\rightarrow$ 0.1 \\
+drink soda 1 $\rightarrow$ 0.5/10 $\rightarrow$ 0.05 \\
+drink whiskey 1 $\rightarrow$ 0.5/10 $\rightarrow$ 0.05 \\
+drink juice 1 $\rightarrow$ 0.5/10 $\rightarrow$ 0.05\\
+left for backoff: $1-0.65=0.35$\\
+$p(\text{water}) = 1/100 = 0.01$\\
+$p(\text{water}|\text{drink}) = 0.35 \times 0.01 = 0.0035$
+} 
+
+\newpage
+
+\item {\bf Tagging}
+
+Given the following distributions:
+
+{\small \begin{tabular}{rrrr}
+
+
+$p(\text{\em bears}|N) = 0.2$ & $p(\text{\em like}|P) = 0.2$ & $p(\text{\em eating}|N) = 0.1$  &$p(\text{\em fish}|N) = 0.2$  \\
+$p(\text{\em bears}|V) = 0.1$ & $p(\text{\em like}|M) = 0.5$ & $p(\text{\em eating}|V) = 0.2$ & $p(\text{\em fish}|V) = 0.2$  \\
+\end{tabular}}
+
+{\small \begin{tabular}{rrrr}
+$p(N|{\sc start}) = 0.5$ & $p(N|N) = 0.2$ & $p(N|V) = 0.5$ & $p(N|P) = 0.5$  \\
+$p(V|{\sc start}) = 0.1$ & $p(V|N) = 0.5$ & $p(V|V) = 0.2$ & $p(V|P) = 0.1$  \\
+                                           & $p(P|N) = 0.1$ & $p(P|V) = 0.2$ & $p(N|M) = 0.2$   \\
+                                           & $p(M|N) = 0.2$ & $p(M|V) = 0.1$ & $p(V|M) = 0.5$   \\
+\end{tabular}}
+
+Carry out the Viterbi algorithm by hand to compute the best tag sequence and its probability for 
+\begin{center}
+{\em bears like eating fish }
+\end{center}
+Advice: use scientific notation ($2\times10^{-1} = 0.2$) for numbers.
+
+
+{\em{\bf  Solution:} Computations are always: prior state $\times$ transition $\times$ emission\\
+\begin{tabular}{ll}
+& {\sc start} \\
+bears & N: $0.5 \times 0.2 = 10^{-1}$  {\sc best}\\
+           & V: $0.1 \times 0.1 = 10^{-2}$  {\sc best}\\
+like & (M from N) $10^{-1} \times 0.2 \times 0.5 = 1\times 10^{-2}$ {\sc best} \\
+        & (M from V) $10^{-2} \times 0.1 \times 0.5 = 5\times 10^{-4}$ \\
+        & (P from N) $10^{-1} \times 0.1 \times 0.2 = 2\times 10^{-3}$ {\sc best} \\
+        & (P from V) $10^{-2} \times 0.2 \times 0.2 = 4\times 10^{-4}$ \\
+eating & (N from M) $1\times 10^{-2} \times 0.2 \times 0.1 = 2\times 10^{-4}$ {\sc best}\\
+            & (N from P) $2\times 10^{-3} \times 0.5 \times 0.1 = 1\times 10^{-4}$ \\
+            & (V from M) $1\times 10^{-2} \times 0.5 \times 0.2 = 1\times 10^{-3}$ {\sc best}\\
+            & (V from P) $2\times 10^{-3} \times 0.1 \times 0.2 = 4\times 10^{-5}$ \\
+fish & (N from N) $2\times 10^{-4} \times 0.2 \times 0.2 = 8\times 10^{-6}$ \\
+        & (N from V) $1\times 10^{-3} \times 0.5 \times 0.2 = 1\times 10^{-4}$  {\sc overall best} \\
+        & (V from N) $2\times 10^{-4} \times 0.5 \times 0.2 = 2\times 10^{-5}$ \\
+        & (V from V) $1\times 10^{-3} \times 0.2 \times 0.2 = 4\times 10^{-5}$ \\
+\end{tabular}
+
+Best sequence: N M V N $\rightarrow 1\times 10^{-4}$
+} 
+
+\newpage
+\item {\bf Syntax}
+
+\begin{enumerate}
+
+\item Given the following grammar rules: 
+
+{\small \begin{tabular}{ccccc}
+S $\rightarrow$ NP VP &
+VP $\rightarrow$ V NP &
+VP $\rightarrow$ V NP PP &
+NP $\rightarrow$ NP PP &
+PP $\rightarrow$ P NP\\
+NP $\rightarrow$ Jane &
+NP $\rightarrow$ paper &
+NP $\rightarrow$ scissors &
+V $\rightarrow$ cuts &
+P $\rightarrow$ with\\
+\end{tabular}}
+
+Carry out CKY chart parsing by hand to find all possible parse trees for the sentence
+\begin{center}
+\em Jane cuts paper with scissors
+\end{center}
+
+{\em{\bf  Solution:} 
+
+\begin{tabular}{ccccc}
+S(1+2-5)\\
+&VP(2+3-5)/VP(2+3+4-5)\\
+S(1+2-3)&&PP(3+4-5)\\
+&VP(2+3)&&PP(4+5)\\
+NP(1) & V(2) & NP(3) & P(4) & NP(5) \\
+Jane & cuts & paper & with & scissors\\
+1&2&3&4&5\\
+\end{tabular}} 
+
+\item For  the above example, how could a probabilistic parsing model help disambiguate the possible syntactic interpretations of the sentence?
+
+{\em{\bf  Solution:} Lexicalize the grammar. VP(cuts) $\rightarrow$ VP(cuts) PP(scissors). Learn probabilities for rules. Relationship between paper and scissors should be weaker than between cuts and scissors.} 
+
+\end{enumerate}
+
+\newpage 
+\item {\bf Lexical Semantics}
+
+How can automatic methods detect the right meaning of a word occurring in a given examples. List at least four types of information that can help and give an example for each, on hand of the ambiguous word {\em interest} (curiosity sense vs. fee for loan sense).
+
+{\em{\bf  Solution:} \begin{itemize}
+\item surrounding function words: in the interest of
+\item surrounding part-of-speech tags: interest in/P , interest of/P
+\item surrounding content words: interest rate
+\item words with syntactic relationship (verb/object noun): he expressed his great interest in the matter
+\item content words in wider window: the central bank gave no clear indication on the impact of a high level of interest charged on these loans
+\end{itemize}
+}
+
+\end{enumerate}
+
+\end{document}
+
