@@ -4,3 +4,9 @@
 2019-12-04:12:11:22 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   656  open final-example.tex
 2019-12-04:12:54:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   657  more ~/LaTex/nmt-book/book.tex
 2019-12-04:12:54:43 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   658  ls -l
+2020-10-08:08:18:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   652  cd exam/
+2020-10-08:08:18:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   653  ls
+2020-10-08:08:20:29 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   654  vi first-midterm-2020.tex
+2020-10-08:08:53:40 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   655  ls -lt ~/Downloads/ | head
+2020-10-08:08:53:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   656  mv ~/Downloads/First_Midterm_Exam_IntroHLT_2020.pdf first-midterm-2020pdf
+2020-10-08:08:53:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   657  ls -l
