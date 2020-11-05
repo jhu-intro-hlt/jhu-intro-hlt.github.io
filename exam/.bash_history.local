@@ -10,3 +10,9 @@
 2020-10-08:08:53:40 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   655  ls -lt ~/Downloads/ | head
 2020-10-08:08:53:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   656  mv ~/Downloads/First_Midterm_Exam_IntroHLT_2020.pdf first-midterm-2020pdf
 2020-10-08:08:53:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   657  ls -l
+2020-11-05:09:27:56 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   590  cd exam/
+2020-11-05:09:27:56 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   591  ls
+2020-11-05:09:30:39 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   592  mv ~/Downloads/IntroHLT_Midterm_2019.pdf midterm-2019.pdf
+2020-11-05:09:30:41 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   593  ls -l
+2020-11-05:09:30:59 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   594  git add midterm-2019.pdf
+2020-11-05:09:31:10 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   595  git commit -am midterm-2019
