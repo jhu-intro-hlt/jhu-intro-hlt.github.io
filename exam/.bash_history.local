@@ -15,3 +15,4 @@
 2020-11-05:09:30:39 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   592  mv ~/Downloads/IntroHLT_Midterm_2019.pdf midterm-2019.pdf
 2020-11-05:09:30:41 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   593  ls -l
 2020-11-05:09:30:59 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   594  git add midterm-2019.pdf
+2020-11-05:09:31:10 MacBookPhi2019 /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   595  git commit -am midterm-2019
