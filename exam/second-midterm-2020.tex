@@ -1,0 +1,171 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.1in}
+
+\newcounter{QuestionCounter}
+%\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+
+\newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+
+\begin{document}
+
+{\ }
+\vskip 1in
+
+\centerline{\Huge\bf Second Midterm Exam}
+\vskip .5in
+\centerline{\LARGE\bf 601.467/667 Introduction to Human Language Technology}
+\vskip .2in
+\centerline{\Large Fall 2020}
+\vskip .1in
+\centerline{\Large Johns Hopkins University}
+\vskip .1in
+\centerline{\Large Co-ordinator: Philipp Koehn}
+\vskip .3in
+\centerline{\Large 10 November 2020}
+\vskip 1in
+\centerline{\Large Complete all questions.}
+\vskip .2in
+\centerline{\Large Use additional paper if needed.}
+\vskip .2in
+\centerline{\Large Time: 75 minutes.}
+\vskip 1in
+\centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+
+\newpage
+\Question{\Large Auditory System and Speech Basics}{30}
+\vskip .25in
+\begin{enumerate}
+\item What are the approximate estimates of bit rates of speech signal and of linguistic message in speech and how would you estimate it ?
+\vskip 2.3in
+
+\item Why do human speakers generate different speech sounds?
+\vskip 2.3in
+
+\item What is an equal loudness curve and what does it tell us about how the brain perceives sounds?
+\vskip 2.3in
+
+\item Explain how the brain converts sound waves into neural signals? 
+\vskip 3in
+
+\item You were asked to develop a technology for a deaf person where you need to bypass damaged parts of their ear. You are focusing mostly on speech-based communication (less so on music and other sounds). Knowing what you know about both speech signals and the auditory system, and assuming no biological or computational/engineering constraints, what can you do to deliver a speech signal to help this person? Which parts of the signal are critical? 
+\vskip 2in
+\end{enumerate}
+
+\newpage
+\Question{Spectrograms}{10}
+\vskip .25in
+
+Recall that the spectrogram is a visual representation of $X[k,\omega]$ of a speech signal $x[n]$ in time-window $n\in[k-\Delta,k+\Delta]$ centered at $k$, with $k$ represented along the $x$-axis of the spectrogram, $\omega$ along the $y$-axis, and the magnitude of the Fourier transform $|X[k,\omega]|$ plotted as the pixel intensity, darker for higher values.
+\begin{enumerate}
+    \item What window sizes (in milliseconds) are associated with a {\em narrow-band} versus a {\em wide-band} spectrogram?  What is commonly used for automatic speech recognition?
+    \vskip 1.25in
+    \item What is the typical range of frequencies (in Hz or kHz) on the $y$-axis in which speech signals have spectral energies?  How does it depend on the sampling rate of $x[n]$?
+    \vskip 1.25in
+    \item What is a {\em formant}, and how it is visually manifested in a spectrogram?  What kinds of phonemes typically generate formants?
+    \vskip 1.25in
+    \item How does one identify fricatives sounds (e.g. an /sh/ or /zh/) in a spectrogram?
+    \vskip 1.25in
+\end{enumerate}
+
+\newpage
+
+\Question{Mel-Frequency Cepstral Coefficients}{10}
+\vskip .25in
+
+Recall that a typical signal representation used for automatic speech recognition is a sequence of Mel-Frequency Cepstral Coefficients or MFCCs.  In what order are the following signal processing operations carried out to compute MFCCs?
+\def\msquare{\mathord{\scalebox{1.5}[1]{\scalerel*{\Box}{\strut}}}}
+\begin{description}
+    \item[\Huge $\Box$] Discrete cosine transform
+    \item[\Huge $\Box$] Discrete Fourier transform
+    \item[\Huge $\Box$] Logarithm computation
+    \item[\Huge $\Box$] Magnitude computation
+    \item[\Huge $\Box$] Mel-weighting (triangular filters of increasing width)
+    \item[\Huge $\Box$] Preemphasis
+    \item[\Huge $\Box$] Sampling the continuous-time signal
+    \item[\Huge $\Box$] Windowing
+\end{description}
+State the psycho-acoustic motivation for
+\begin{itemize}
+    \item ignoring the phase of the Fourier transform,
+    \item taking the logarithm, and
+    \item the increasing width of the Mel-filters.
+\end{itemize}
+
+\newpage
+
+\Question{Hidden Markov Models}{10}
+\vskip .25in
+
+A major reason for the popularity of hidden Markov models (HMMs) for acoustic modeling is their compositional nature: HMMs for phonemes can be strung together to create HMMs for words, which can be strung together to create HMMs for sentences, etc.
+
+Using ${\bf x}$ to denote a sequence of observations $x_1,\ldots,x_T$ from an HMM, ${\bf s}$ the sequence $s_1,\ldots,s_T$ of unobserved states, and $s_0$ the (known) initial state, one may write
+\begin{equation*}
+    P({\bf x},{\bf s}\,|\,s_0) \,\,\,=\,\,\, \prod_{n=1}^T P(x_n|s_n)\,P(s_n|s_{n-1}).
+\end{equation*}
+State, both in words and in a mathematical precise expression, the computational problem associated with HMMs that is solved by
+\begin{enumerate}
+    \item the forward-backward algorithm,
+    \vskip 1.7in
+    \item the Baum-Welch algorithm, and
+    \vskip 1.7in
+    \item the Viterbi algorithm.
+\end{enumerate}
+\newpage
+\begin{itemize}
+    \item For each algorithm above, specify its computational (big-O) complexity in terms of the input length $T$, and the number of states $S$ in the HMM.  
+    \vskip 2in
+    \item How are $E$ and $S$ related for a general HMM versus a left-to-right HMM?  Refine your answer above in terms of the number of permitted transitions (edges) $E$ in the HMM instead of the number of states $S$.
+    \vskip 2in
+    \item What is the typical value of $S$ in a large vocabulary speech recognition system?
+    \begin{enumerate}
+        \item Ten to a hundred
+        \item Hundred to a thousand
+        \item Thousand to ten thousand
+        \item Ten thousand to a million
+        \item More than a million
+    \end{enumerate}
+    What is the typical value of $E$?
+    \vskip 2in
+\end{itemize}
+
+\newpage
+
+
+
+
+
+\newpage
+\Question{Speaker Recognition}{20}
+\vskip .25in
+What is the role of linear discriminant analysis or probabilistic linear discriminant analysis applied to speech representation for speaker recognition?
+
+\newpage
+\Question{Neural Speech Recognition}{20}
+\vskip .25in
+Please discuss the difference between HMM-based, connectionist temporal classification (CTC), and attention-based speech recognition systems in terms of 1) conditional independence assumptions, 2) use of language and lexicon/pronunciation models, 3) implementation, 4) speech recognition performance. You can also include the other perspectives if you want (e.g., training cost and number of parameters, as discussed in our class).
+
+\begin{itemize}
+\item conditional independence assumptions (including Markov assumptions)
+\vspace{2.5cm}
+\item use of language and lexicon/pronunciation models
+\vspace{2.5cm}
+\item implementation 
+\vspace{2.5cm}
+\item speech recognition performance
+\vspace{2.5cm}
+\item others? (optional)
+\end{itemize}
+
+
+\end{document}
+
