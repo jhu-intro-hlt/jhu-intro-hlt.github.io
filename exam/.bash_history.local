@@ -26,3 +26,9 @@
 2020-11-10:08:48:20 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   516  mv first-midterm-2020pdf first-midterm-2020.pdf
 2020-11-10:08:48:23 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   517  open first-midterm-2020.pdf 
 2020-11-10:08:48:41 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   518  git add first-midterm-2020.pdf 
+2020-11-10:08:48:52 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   519  git commit -am 'first-midterm-2020'
+2020-11-10:08:48:58 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   520  git push
+2020-11-10:08:50:19 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   521  git pull
+2020-11-10:08:50:21 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   522  ls -l
+2020-11-10:08:50:44 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   523  git pull
+2020-11-10:08:50:48 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   524  ls -l
