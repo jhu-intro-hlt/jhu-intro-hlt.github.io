@@ -121,3 +121,5 @@
 2021-08-30:09:30:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   536  cp lecture-introduction.tex lecture-introduction-2020.tex
 2021-08-30:09:31:04 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   537  cp lecture-introduction.pdf lecture-introduction-2020.pdf
 2021-08-30:09:41:40 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   538  git add lecture-introduction.tex CallCenterAutomation.png 
+2021-08-30:09:41:52 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   539  git commit -am 'updated intro lecture sources'
+2021-08-30:09:41:56 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   540  git push
