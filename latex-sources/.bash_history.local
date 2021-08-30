@@ -115,3 +115,9 @@
 2020-08-31:20:27:47 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   742  cp lecture-introduction.pdf ../slides/
 2021-08-30:09:24:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   524  cd latex-sources/
 2021-08-30:09:24:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   525  ls
+2021-08-30:09:30:27 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   533  cd latex-sources/
+2021-08-30:09:30:27 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   534  ls
+2021-08-30:09:30:36 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   535  open lecture-introduction.tex 
+2021-08-30:09:30:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   536  cp lecture-introduction.tex lecture-introduction-2020.tex
+2021-08-30:09:31:04 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   537  cp lecture-introduction.pdf lecture-introduction-2020.pdf
+2021-08-30:09:41:40 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   538  git add lecture-introduction.tex CallCenterAutomation.png 

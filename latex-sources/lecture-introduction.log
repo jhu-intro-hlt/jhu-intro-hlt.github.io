@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  31 AUG 2020 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  30 AUG 2021 09:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1027,7 +1027,7 @@ Package pdftex.def Info: eliza.png  used on input line 261.
 (pdftex.def)             Requested size: 711.3189pt x 402.14534pt.
 File: jhu.pdf Graphic file (type pdf)
 <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf  used on input line 268.
+Package pdftex.def Info: jhu.pdf  used on input line 267.
 (pdftex.def)             Requested size: 297.10925pt x 321.1991pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1035,26 +1035,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [13 <./eliza.png>]
-<hate-speech.png, id=94, 804.00375pt x 396.48125pt>
-File: hate-speech.png Graphic file (type png)
-<use hate-speech.png>
-Package pdftex.def Info: hate-speech.png  used on input line 271.
-(pdftex.def)             Requested size: 569.05511pt x 280.62038pt.
+<CallCenterAutomation.png, id=94, 762.85pt x 299.1175pt>
+File: CallCenterAutomation.png Graphic file (type png)
+<use CallCenterAutomation.png>
+Package pdftex.def Info: CallCenterAutomation.png  used on input line 270.
+(pdftex.def)             Requested size: 711.3189pt x 278.92035pt.
 File: jhu.pdf Graphic file (type pdf)
 <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf  used on input line 278.
+Package pdftex.def Info: jhu.pdf  used on input line 277.
 (pdftex.def)             Requested size: 297.10925pt x 321.1991pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[14 <./hate-speech.png>]
-<fake-news3.png, id=99, 1204.5pt x 632.3625pt>
-File: fake-news3.png Graphic file (type png)
-<use fake-news3.png>
-Package pdftex.def Info: fake-news3.png  used on input line 281.
-(pdftex.def)             Requested size: 711.3189pt x 373.4573pt.
+[14 <./CallCenterAutomation.png>]
+<hate-speech.png, id=99, 804.00375pt x 396.48125pt>
+File: hate-speech.png Graphic file (type png)
+<use hate-speech.png>
+Package pdftex.def Info: hate-speech.png  used on input line 280.
+(pdftex.def)             Requested size: 569.05511pt x 280.62038pt.
 File: jhu.pdf Graphic file (type pdf)
 <use jhu.pdf>
 Package pdftex.def Info: jhu.pdf  used on input line 287.
@@ -1064,31 +1064,46 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[15 <./fake-news3.png>]
+[15 <./hate-speech.png>]
+<fake-news3.png, id=104, 1204.5pt x 632.3625pt>
+File: fake-news3.png Graphic file (type png)
+<use fake-news3.png>
+Package pdftex.def Info: fake-news3.png  used on input line 290.
+(pdftex.def)             Requested size: 711.3189pt x 373.4573pt.
 File: jhu.pdf Graphic file (type pdf)
 <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf  used on input line 299.
+Package pdftex.def Info: jhu.pdf  used on input line 296.
 (pdftex.def)             Requested size: 297.10925pt x 321.1991pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
+[16 <./fake-news3.png>]
+File: jhu.pdf Graphic file (type pdf)
+<use jhu.pdf>
+Package pdftex.def Info: jhu.pdf  used on input line 308.
+(pdftex.def)             Requested size: 297.10925pt x 321.1991pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
  (./lecture-introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `lecture-introduction.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 17445 strings out of 492616
- 324515 string characters out of 6129482
- 387498 words of memory out of 5000000
- 21006 multiletter control sequences out of 15000+600000
+ 17451 strings out of 492616
+ 324661 string characters out of 6129482
+ 386498 words of memory out of 5000000
+ 21010 multiletter control sequences out of 15000+600000
  19877 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,48p,429b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1100,9 +1115,9 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb>
-Output written on lecture-introduction.pdf (17 pages, 1816879 bytes).
+Output written on lecture-introduction.pdf (18 pages, 1892755 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
