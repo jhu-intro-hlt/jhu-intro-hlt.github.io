@@ -78,7 +78,7 @@
 \begin{document}\rm
 \title[Introduction to Human Language Technology: Information Extraction]{Information Extraction}
 \author[Philipp Koehn]{Philipp Koehn}
-\date{28 October 2019}
+\date{5 October 2021}
 \maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -419,8 +419,8 @@ p(S|T)\;p(T)=\prod_i p(w_i|t_i) \; p(t_i|t_{i-2},t_{i-1})
 \end{itemize}
 \item Stepping through all states at each time steps allows us to compute
 \begin{itemize}
-\item \maths{$\delta_j(s+1) \; \; = \; \; \; \mbox{max}_{1 \le i \le N} \; \delta_i(s) \; p(t_i|t_j)\; p(w_s|t_j)$}
-\item \maths{$\psi_j(s+1) = \mbox{argmax}_{1 \le i \le N} \; \delta_i(s) \; p(t_i|t_j)\; p(w_s|t_j)$}\pause
+\item \maths{$\delta_j(s+1) \; \; = \; \; \; \mbox{max}_{1 \le i \le N} \; \delta_i(s) \; p(t_j|t_i)\; p(w_s|t_j)$}
+\item \maths{$\psi_j(s+1) = \mbox{argmax}_{1 \le i \le N} \; \delta_i(s) \; p(t_j|t_i)\; p(w_s|t_j)$}\pause
 \end{itemize}
 \item Best final state is \maths{$\mbox{argmax}_{1 \le i \le N} \; \delta_i(S+1)$}, we can backtrack from there
 \end{itemize}
