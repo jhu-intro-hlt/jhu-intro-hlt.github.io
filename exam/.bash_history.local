@@ -32,3 +32,8 @@
 2020-11-10:08:50:21 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   522  ls -l
 2020-11-10:08:50:44 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   523  git pull
 2020-11-10:08:50:48 macbookphi2019.lan /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   524  ls -l
+2021-10-07:08:45:48 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   601  cd exam/
+2021-10-07:08:45:49 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   602  ls
+2021-10-07:08:46:40 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   603  mv ~/Downloads/exam_without_solutions\ \(2\).pdf midterm-2021.pdf
+2021-10-07:08:46:56 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   604  mv ~/Downloads/exam.tex midterm-2021.tex
+2021-10-07:08:47:02 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   605  git add midterm-2021.*

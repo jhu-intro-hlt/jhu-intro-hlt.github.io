@@ -1,0 +1,288 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{tikz,pgfplots} 
+\usetikzlibrary{arrows,automata}
+
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+\pagestyle{empty}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.1in}
+
+\newcounter{QuestionCounter}
+%\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+
+\newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+
+\begin{document}
+
+{\ }
+\vskip 1in
+
+\centerline{\Huge\bf First Midterm Exam}
+\vskip .5in
+\centerline{\LARGE\bf 601.467/667 Introduction to Human Language Technology}
+\vskip .2in
+\centerline{\Large Fall 2021}
+\vskip .1in
+\centerline{\Large Johns Hopkins University}
+\vskip .1in
+\centerline{\Large Co-ordinator: Philipp Koehn}
+\vskip .3in
+\centerline{\Large 7 October 2021}
+\vskip 1in
+\centerline{\Large Complete all questions.}
+\vskip .2in
+\centerline{\Large Use additional paper if needed.}
+\vskip .2in
+\centerline{\Large Time: 75 minutes.}
+\vskip 1in
+\centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+
+\newpage
+\Question{\Large Language Models and Morphology}{20}
+
+\begin{itemize}
+
+\item[1.] (2 points) I have a {\bf unigram} word model trained on standard English. How would
+you expect the perplexity of the model on the sentence ‘a car David rented’
+compare to the perplexity of the same model on ‘David rented a car’?  Circle one:
+ \begin{itemize}
+   \item[(a)] The perplexity on ‘a car David rented’ is greater
+   \item[(b)] The perplexities are equal
+   \item[(c)] The perplexity on ‘David rented a car’ is greater
+ \end{itemize}
+
+\vspace{1cm}
+
+\item[2.] (2 points) I have a {\bf bigram} word model trained on standard English. How would
+you expect the perplexity of the model on the sentence ‘a car David rented’
+compare to the perplexity of the same model on ‘David rented a car’?  Circle one:
+
+ \begin{itemize}
+   \item[(a)] The perplexity on ‘a car David rented’ is greater
+   \item[(b)] The perplexities are equal
+   \item[(c)] The perplexity on ‘David rented a car’ is greater
+ \end{itemize}
+
+\vspace{1cm}
+
+\item[3.] (2 points) You have an n-gram distribution which you smooth using add-$\epsilon$, for some
+$\epsilon > 0$. The entropy of the smoothed distribution is:
+\begin{itemize}
+ \item[(a)] smaller than
+ \item[(b)] equal to
+ \item[(c)] greater than
+\end{itemize}
+\noindent the entropy of the original distribution (circle one above).
+
+\vspace{1cm}
+
+\item[4.] (2 points) You are told to build a statistical machine translation system between English and Finnish using
+only 10 million words of Finnish-English bitext and all the monolingual text data found in
+Finnish and English Google Books data.
+
+Which translation direction is likely to achieve better performance on a word-based bleu score (circle one):
+
+\begin{itemize}
+ \item[(a)] English-to-Finnish
+ \item[(b)] Finnish-to-English
+\end{itemize}
+
+\vspace{1cm}
+
+\item[5.] (4 points) Give at least 2 reasons {\bf WHY}, based on what you know about both language
+modeling and the morphology of Finnish and English:
+
+\vspace{3cm}
+
+
+\item[6.] (2 points) Bound morphemes are (circle one):
+
+\begin{itemize}
+\item[(a)] Words or morphemes that keep the same form every time used and are unchangeable, including conjunctions
+\item[(b)] Morphemes that cannot stand alone as a word, and must be attached to a free morpheme
+\item[(c)] Words that have morphemes that change depending on the grammar and meaning of a sentence, including nouns
+\end{itemize}
+
+\vspace{1cm}
+
+
+\item[7.] (3 points) Give the meaning of the word {\it cooler}:
+\begin{itemize}
+  \item[(a)] when {\it -er} is an inflectional morpheme  
+    \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+  \item[(b)] when {\it -er} is a derivational morpheme 
+     \underline {
+     \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\end{itemize}
+
+\vspace{1.5cm}
+          
+          
+\item[8.] (3 points) give at least 3 distinct allomorphs for the English negative prefix  {\it in-},
+     also simply describe the orthographic context in which the use of each is typically observed, and give one example word for each:
+     
+     \begin{tabular}{|c||c|c|c|}
+          \hline
+          & Allomorph & \ \ \ \ \ \ \ \ \ Orthographic Context \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ & \ \ Example Word \ \ \ \ \ \ \ \ \ \ \ \ \\
+          \hline
+          1 & & & \\
+          \hline
+          2 & & & \\
+          \hline
+          3 & & & \\
+          \hline
+     \end{tabular}
+
+\vspace{3cm}
+
+\end{itemize}
+ 
+
+\newpage
+
+
+
+\newpage
+\Question{\Large Syntax}{20}
+
+(5 points) Explain the difference between \emph{constituency} and \emph{dependency} grammars. Do your best to illustrate each kind of parse of the sentence \emph{She plucked a white flower.}
+
+\vspace{3cm}
+
+(3 points) What is the head of a phrase? What are some of the things it does? Give two examples.
+
+\vspace{2cm}
+
+(2 points) In the following example, both \emph{see} and \emph{give} are verbs. Which sentence is ungrammatical? Why?
+
+\begin{itemize}
+\item Kim planned to give Sandy books.
+\item Kim planned to see Sandy books.
+\end{itemize}
+
+\vspace{2cm}
+
+(5 points) Below is a grammar (a `$\mid$' represents multiple options). If derivations start with the S node, list five sentences that could be produced by this grammar. You don't need to show the parse structures, but it doesn't hurt.
+
+\begin{quote}
+S $\rightarrow$ NP VP \\
+NP $\rightarrow$ NN \\
+NP $\rightarrow$ DT NN \\
+NP $\rightarrow$ DT ADJ NN \\
+VP $\rightarrow$ VB NP \\
+
+DT $\rightarrow$ a $\mid$ an $\mid$ the \\
+ADJ $\rightarrow$ generous $\mid$ cotton-headed $\mid$ green \\
+NN $\rightarrow$ dog $\mid$ peony $\mid$ bone $\mid$ boy  \\
+VB $\rightarrow$ eats $\mid$ redefines $\mid$ picks
+\end{quote}
+
+(5 points) How could you extend this grammar to support plural nouns and verbs, such that agreement is enforced? (i.e., plural nouns can only appear with plural verbs, likewise for singular). You should need at least five more rules. Give at least one new sentence from your new grammar.
+
+\newpage
+\Question{\Large Semantics}{15}
+
+(5 points) Explain the difference between \emph{polysemy} and \emph{homonymy}, and illustrate with an example of each.\\
+
+\vspace{3cm}
+
+(5 points) Give an example of two sentences that describe the same \emph{event} but with participants in different \emph{syntactic positions}.  Why is this useful information, beyond simply understanding each sentence in isolation?\\
+
+\vspace{3cm}
+
+(5 points) You're thinking about getting a new pet (a turtle), but are worried how it would interact with your current pet (a dog).  Will they fight?  Cuddle?  Ignore each other?  How could you use the output of a semantic role labeling system to answer this question?\\
+
+\vspace{3cm}
+
+\newpage
+\Question{\Large Deep Learning}{20}
+
+(2 points each) Give 4 examples of Supervised Learning tasks in HLT. Give an example of one input and output that could exist in the trainig data.
+
+\vspace{5cm}
+
+
+(2 points) Why do we use a softmax? (Hint what range is the output of a softmax)
+
+\vspace{2cm}
+
+(2 points) BERT is a Masked Language Model. What are Masked Language Models and how are they different than $n$-gram Language Models?
+
+\vspace{2cm}
+
+(4 points) Why have Neural Networks taken over in HLT in the last 10 years? Please give at least 2 reasons.
+
+\vspace{2cm}
+
+(4 points) How are words input into a Neural Network? What sort of problems could this cause and how do we solve them?
+
+
+\newpage
+\Question{\Large Information Retrieval}{10}
+
+You've built a new Information Retrieval system and need to evaluate whether it is good according to the Mean Average Precision (MAP) metric. Suppose you index 1000 documents $d_1$, $d_2$, $d_3$, $\ldots$, $d_{1000}$, and then try searching with two queries $q_1$ and $q_2$, each of which retrieving a ranked list of documents, as follows: 
+
+\begin{enumerate}
+\item Query: $q_1$\\[2mm]
+Ranked list of documents retrieved by your system, in order: $d_3$, $d_4$, $d_2$, $d_5$\\ (i.e. Document $d_3$ is deemed best by system, follow by $d_4$, etc. Documents not listed here are deemed irrelevant by the system)\\[2mm]
+Answer key: $d_2$, $d_4$ \\(i.e. These are relevant documents for $q_1$, determined by a manual annotation)
+\item Query: $q_2$\\[2mm]
+Ranked list of documents retrieved by your system, in order: $d_3$, $d_1$, $d_5$, $d_9$\\[2mm]
+Answer key: $d_3$, $d_5$, $d_6$, $d_7$ 
+\end{enumerate}
+
+Please compute the following quantities. For simplicity, leave numbers in fractional form. 
+\begin{itemize}
+    \item (1 point) Precision for $q_1$: 
+    \item (1 point) Recall for $q_1$:
+    \item (1 point) Precision for $q_2$:
+    \item (1 point) Recall for $q_2$:
+    \item (2 points) Average Precision for $q_1$:
+    \item (2 points) Average Precision for $q_2$:
+    \item (2 points) MAP for the two queries:
+\end{itemize}
+
+\newpage
+\Question{\Large Information Extraction}{25}
+
+Consider the following text:\vspace{-5mm}
+
+\begin{quotation}
+\footnotesize lululemon athletica inc. (LULU) is reporting for the quarter ending July 31, 2021. The textile company's consensus earnings per share forecast from the 11 analysts that follow the stock is \$1.21. This value represents a 63.51\% increase compared to the same quarter last year. In the past year LULU has beat the expectations every quarter. The highest one was in the 2nd calendar quarter where they beat the consensus by 27.47\%. Zacks Investment Research reports that the 2022 Price to Earnings ratio for LULU is 55.21 vs. an industry ratio of 20.10, implying that \textcolor{blue}{\bf they} will have a higher earnings growth than their competitors in the same industry.
+
+Oracle (ORCL) reported quarterly results late Monday that slightly missed revenue estimates and soundly beat on earnings. Oracle stock fell. The database software company reported adjusted earnings of \$1.03 a share on revenue of \$9.73 billion. Analysts expected Oracle to report earnings of 97 cents on revenue of \$9.75 billion, according to FactSet. The results were for its fiscal first quarter ended Aug. 31. Revenue climbed 4\% from the year-ago period. Oracle stock fell 3\%, near 86.10, during after-hours trading on the stock market today.
+
+Apple today announced financial results for its fiscal 2021 third quarter ended June 26, 2021. The Company posted a June quarter record revenue of \$81.4 billion, up 36 percent year over year, and quarterly earnings per diluted share of \$1.30.
+\end{quotation}
+
+You are tasked to extract earning statistics from text like this and store it in a database table that contains
+\begin{itemize}\itemsep -2mm \vspace{-5mm}
+    \item company name
+    \item ticker symbol
+    \item earnings per share
+    \item percentage change in earnings
+\end{itemize}
+
+\begin{description}
+\item[\bf Entity linking] Mark in the text where companies referred to and indicate which mentions are referring to the same company.\\[3mm]
+Name one feature that would a co-reference resolution method conclude that the pronoun {\em they} (bold, at the end of the first paragraph) refers to {\em  lululemon athletica inc.}. Also name one feature that would interfere with this conclusion.\vspace{2cm}
+
+\item[\bf Surface extraction rule] Write a surface pattern rule that allows the extraction of the relationship between company name and ticker symbol.
+\vspace{1.5cm}
+\item[\bf Syntactic extraction rule] Write a syntactic pattern rule that allows the extraction of values for the "earnings per share" concept.
+\end{description}
+
+\newpage
+\section*{Extra Space}
+\newpage
+\end{document}
+
