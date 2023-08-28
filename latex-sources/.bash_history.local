@@ -141,3 +141,19 @@
 2022-08-30:08:42:35 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   517  open lecture-introduction.tex
 2022-08-30:08:53:11 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   518  git add lecture-introduction.tex lecture-introduction.pdf 
 2022-08-30:08:53:21 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   519  git add lecture-introduction-2021.*
+2023-08-28:16:21:19 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   561  cd ../latex-sources/
+2023-08-28:16:21:20 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   562  ls
+2023-08-28:16:21:27 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   563  git status
+2023-08-28:16:22:31 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   564  ls
+2023-08-28:16:22:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   565  ls -l lecture-introduction*
+2023-08-28:16:23:09 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   566  cp lecture-introduction.tex lecture-introduction-2022.tex
+2023-08-28:16:23:18 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   567  cp lecture-introduction.pdf lecture-introduction-2022.pdf
+2023-08-28:16:23:28 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   568  git add lecture-introduction-2022.*
+2023-08-28:16:23:35 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   569  open lecture-introduction.tex 
+2023-08-28:16:32:18 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   570  wget https://the-decoder.com/wp-content/uploads/2022/11/chatgpt_sentient-1.jpg
+2023-08-28:16:32:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   571  curl https://the-decoder.com/wp-content/uploads/2022/11/chatgpt_sentient-1.jpg
+2023-08-28:16:32:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   572  curl --output chatgpt.jpg https://the-decoder.com/wp-content/uploads/2022/11/chatgpt_sentient-1.jpg
+2023-08-28:16:46:16 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   573  git add chatgpt.jpg 
+2023-08-28:16:46:32 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   574  git add lecture-introduction.pdf lecture-introduction.tex 
+2023-08-28:16:46:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   575  ls -l ../slides/
+2023-08-28:16:46:55 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   576  cp lecture-introduction.pdf ../slides/
