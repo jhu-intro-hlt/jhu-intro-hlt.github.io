@@ -1,0 +1,270 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{amssymb}
+
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.1in}
+
+\newcounter{QuestionCounter}
+%\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+
+\newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+
+\newcommand{\solution}[2]{\\[2mm] \textcolor{blue}{\em #1}} % show
+% \newcommand{\solution}[2]{#2} % hide
+
+\begin{document}
+
+{\ }
+\vskip 1in
+
+\centerline{\Huge\bf Final Exam}
+\vskip .5in
+\centerline{\LARGE\bf 601.467/667 Introduction to Human Language Technology}
+\vskip .2in
+\centerline{\Large Fall 2023}
+\vskip .1in
+\centerline{\Large Johns Hopkins University}
+\vskip .1in
+\centerline{\Large Co-ordinator: Philipp Koehn}
+\vskip .3in
+\centerline{\Large 14 December 2023}
+\vskip 1in
+\centerline{\Large Complete all questions.}
+\vskip .2in
+\centerline{\Large Use additional paper if needed.}
+\vskip .2in
+\centerline{\Large Time: 75 minutes.}
+\vskip 1in
+\centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Question{\Large Question Answering}{20}
+\vskip .25in
+\begin{enumerate}
+
+\item Researchers have defined various question types for QA systems. Understanding the question type is important for defining the scope of the problem and restricting the answer candidates. Please write down the name of five different question types and give an example question for each. (10 points)
+\solution{Answer: Examples from the slides include... Factoid Question: Who was the first American in space? 
+List Question: Name 20 countries that produce coffee. 
+Definition Question: Who is Aaron Copland? 
+Relationship Question: Are Israel’s military ties to China increasing? 
+Opinion Question: Why do people like Trader Joe’s? }
+{\vspace{6cm}}
+
+\item The main components of a QA system include Question Analysis, Search, Candidate Extraction, Knowledge Sources, and Answer Ranking. Please explain the purpose of each. (5 points) 
+\solution{Answer: Question Analysis takes the question as input, finds the answer type and formulates the query for next stage Search. Search picks up potentially relevant documents or info snippets from the Knowledge Source. Candidate Extraction applies text processing on the retrieved documents to return a list of answer candidates, which is finally scored by the Answer Ranking component so that the most likely answer is returned.}{\vspace{4cm}}
+
+\item Here is an example of the Winograd Scheme Challenge. Explain why it is challenging for Machine Reading Comprehension (MRC) systems. (5 points) \\[0.2cm]
+Q: The trophy would not fit in the brown suitcase because it was too big. What was too big? \\[0.2cm]
+A. The trophy \\[0.2cm]
+B. The suitcase 
+\solution{Answer: In order to solve these kinds of questions, the machine needs some form of common sense knowledge of the physicial world. In this case, it needs to know that A "not fitting" B means that A is too big. These kinds of common sense knowledge are often not explicitly written in the text data used for training MRC systems, so it is one of those challenges that may be easy for humans but hard for machines.}{\vspace{8cm}}
+
+\end{enumerate}
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Question{\Large Digital Humanities}{20}
+\vskip .25in
+\begin{enumerate}
+
+\item What are some ways in which humanistic scholars resemble knowledge workers from industry, medicine, finance, etc? (10 points)
+\solution{Humanists typically care about very specific topics for which they need to assemble and curate dedicated corpora, have a wide range of technical competencies, and often lack substantial support from collaborators in computer science.}{\vspace{10cm}}
+
+\item What are some ways in which computational approaches offer advantages or drawbacks with respect to humanistic scholarship? (10 points)
+\solution{Computation scales and can consider larger scope, and can produce concrete information in the form of e.g. probabilities.  It also allows distance from received scholarly precedent and personal bias.  At the same time, models remain limited at close reading and reasoning with respect to humans, and that gap is being closed often at the expense of reduced interpretability.}{\vspace{8cm}}
+
+\end{enumerate}
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Question{\Large Interpretable and Explanable NLP}{20}
+\vskip .25in
+\begin{enumerate}
+
+\item Briefly describe the main difference between black-box and white-box explanations (10 points) 
+\solution{\textbf{Black-box explanations}: for black-box models with no or limited access to their inner workings (e.g., ChatGPT). The focus is on understanding the overall decision-making rather than the specific mechanisms at play. \\
+\textbf{White-box explanations}: the internal workings of the model are transparent and accessible. For example, we can extract the attention weights of the model or compute the gradients of the output to get explanations.
+}{\vspace{10cm}}
+
+
+\item Briefly describe how LIME works (5-6 sentences)  (10 points) 
+\solution{LIME is a technique designed to provide interpretable explanations for individual predictions of complex models. LIME starts by introducing small perturbations to the original instance to create a set of pseudo examples around it. The black-box model is then used to predict outcomes for these pseudo examples. Then a simple and interpretable model (e.g., logistic regression or decision tree) is trained on the pseudo examples and their corresponding black-box model predictions. This local surrogate model provides an interpretable approximation of the black-box model for that specific instance. The coefficients or rules of this interpretable model provide an explanation for the complex model's prediction on the origina instance.
+}{\vspace{8cm}}
+
+\end{enumerate}
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Question{\Large Ethical Problems}{20}
+\vskip .25in
+\begin{enumerate}
+
+\item Describe the Ethical Principle of Beneficence in AI. (10 points)
+\solution{\textbf{Beneficence:} AI should promote well-being, preserve dignity, and sustain the planet
+“The development of AI should ultimately promote the well-being of all sentient creatures,” 
+We should “ensure that AI technologies benefit and empower as many people as possible” 
+“AI technology must be in line with ensuring the basic preconditions for life on our planet, continued prospering for mankind and the preservation of a good environment for future generations.”}{\vspace{10cm}}
+
+\item Describe the notion of Informed Consent in data collection. (10 points)
+\solution{The IRBs require informed consent on data collection. IRBs try to ensure that the participants are correctly informed and accept the possible risks even if those are remote. Informed consent implies that the participant on a study must be informed about the study and express their approval on being part of such study; must understand what is being done (you have to assess if the participant understood what they’re signing); must voluntarily consent to the experiment; must have the right to withdraw consent at any time.
+}{\vspace{4cm}}
+\end{enumerate}
+
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newcommand{\filler}{\_\_\_\_ }
+\newcommand{\filler}{ . . . . . }
+\newcommand{\choice}{\hspace{0.5cm}$\square$}
+\Question{\Large Large Language Models}{20}
+\vskip .25in
+
+
+\begin{enumerate}
+\item Answer the following questions. (8 points) 
+\begin{enumerate}
+        \item In 1-2 sentences, define ``language modeling''. 
+    \solution{
+         Language modeling is about learning probability distribution over sequence of words in language. 
+         This is often learned by training predictive distribution to predict the next token, given a  present context.
+    }{
+    {\vspace{3cm}}
+    }
+    \item In no more than five sentence, describe the GPT family of models (the architecture, how they're  trained, and how they generates text at inference time.) 
+    \solution{
+         The GPT (Generative Pretrained Transformer) family of models, including GPT-1, GPT-2, and GPT-3, are transformer-based language models that use a decoder-only architecture and are large-scale unsupervised learning systems. They are pretrained on a large corpus of text data and can generate coherent and contextually relevant sentences by predicting subsequent words in a sequence. The models are trained using a variant of the Transformer model, specifically with masked self-attention, where the attention scores are calculated only for positions preceding the current position in the sequence, simulating the autoregressive property of language. At inference time, these models generate text by taking a sequence of words as input, predicting the next word based on the context, and iteratively appending the predicted words to the input sequence until they reach the specified length or end token. The process continues until the end token is produced or the maximum text length is reached.
+    }{
+    {\vspace{5cm}}
+    }
+\end{enumerate}
+
+
+\item Select all the answer(s) to fill in the blank (\filler) in each item. (4 points)
+\begin{enumerate}
+    % \newline
+    \item \filler is an argument for the infeasibility of scale due to limited computing. 
+    \newline
+    \choice{} Advances in computing hardware 
+    % according to the Moore's law \# 
+    are much slower than the trends for scaling language models. 
+    % the growth of large models. 
+    \newline   
+    \choice{} Advances in parallel computing can support the fast pace of scaling 
+    % language 
+    models. 
+    \newline   
+    \choice{} Scaling language models continues to incur a lot of costs (monetary, carbon footprint, computing resources, etc.) 
+    \newline   
+    \choice{} Scaling models might reduce the overall costs: the availability of a few large models may prevent the cost of building many smaller ones. 
+    \newline
+    % \newline
+    % \item \filler is an argument for the infeasiblity of scale due to limited data. 
+    \solution{
+        The first and the third statements are arguments for the infeasibility of scaling due to limited computing resources. 
+        }{\vspace{0cm}}
+        
+    \item \filler is an argument that ``data'' should not be a bottleneck for scaling language models. 
+    \newline
+    \choice{} There size of the internet is consistently growing. 
+    \newline   
+    \choice{} There size of  Wikipedia is consistently growing. 
+    \newline  
+    \choice{} One can mine  data from other modalities (e.g., text data mined from videos). 
+    \newline   
+    \choice{} Even with limited data, we can use it more effectively to get more gains.
+    \newline   
+    \solution{
+        All the provided answers support the argument that   ``data'' is not a bottleneck for scaling language models. 
+        }{\vspace{0cm}}
+        
+    % \item 
+    % Problems that belong to the long tail are generally \filler to  models.  \newline  \choice{}   easier      \choice{}  harder 
+    % \newline
+\end{enumerate}
+
+\item Answer the following questions in a few sentences (no more than 5 sentences for each). (8 points)
+\begin{enumerate}
+    \item Explain what long tail of problems in natural language is (provide an example). 
+\solution{
+Not all natural language  instances have the same difficulty.
+Some sentences or tasks that frequently appear in our daily discourse, belong to the ``head'' of a hypothetical distribution of language tasks. 
+In contrast, because of the combinatorial nature of concepts or ideas, there are \emph{many} sentences or tasks that are rare in our discourse even though -- the ``long tail'' of the hypothetical distribution of language tasks. \\ 
+Here are a few examples: 
+\begin{enumerate}
+    \item Doing basic mathematical operations are a lot more common among small numbers (e.g., ``sum of 5 and 2'') than large numbers (e.g., ``sum of 523,235 and 278,057''). Note the space of small numbers is a lot smaller than the space of large numbers. 
+    \item In the context of machine translation, there are few rich-resource languages such as English or Spanish. However, there are plenty of other languages that suffer from limited resources. 
+    \item In the context of self-driving cars, driving in large streets on a bright day is an easier challenge for models given their prevalence in say, California. However, driving  during a storm is not that frequent and hence a more challenging task.
+\end{enumerate}
+}{\vspace{8cm}}
+    \item Explain how the long tail of problems in natural language poses a challenge to  language models. 
+\end{enumerate}
+\solution{
+    Language models are empowered by absorbing 
+    massive amounts of patterns from their massive pre-training data.
+    Instances in the ``head'' of the distribution are generally frequent and hence easier to tackle for language models. 
+    However, language models struggle with the ``tail'' of the distribution as  they are most tasks often have infinite many rare instances in the ``tail'' as they are infrequent and extremely large. 
+    % These patterns are generally rich and frequent for the , however, 
+}{\vspace{4cm}}
+\end{enumerate}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newcommand{\filler}{\_\_\_\_ }
+\newcommand{\filler}{ . . . . . }
+\newcommand{\choice}{\hspace{0.5cm}$\square$}
+\Question{\Large Computational Social Science}{20}
+\vskip .25in
+\begin{enumerate}
+
+
+\item You have a data set of tweets containing terms and hashtags related to the recently released Gemini AI model. Your data has two labels (1) whether or not the post was made by an AI researcher (2) the date the tweet was posted. From glancing at the data, it seems that some people are excited about the model's capabilities, while others are critical about the lack of transparency in the development process, but you don't know much else about what people are saying.
+
+
+\begin{enumerate}
+    \item What are two methods you might use to analyze the data? Write 2-3 sentences about how you would specifically apply the method. (10 points)
+
+    (1) Method:\solution{Classification (Supervised model) [2pt]}{\vspace{2cm}}
+        
+    Description of application:
+    \solution{Example: annotate data and train a supervised model to classify if a tweet expresses excitement or critique. Use the model to investigate if AI researchers are more excited/critical than non-AI researchers [3pts]}{\vspace{3cm}}
+    
+    (2) Method:\solution{Unsupervised/Clustering/Topic Model 2pts]}{\vspace{2cm}} \\
+
+    Description of application :
+    \solution{Example: Use a topic model to discover what the dominant narratives in the online discussions are [3pts]}
+
+    \solution{Alternative answers (others are possible):}{\vspace{3cm}}
+    
+    \solution{Method: Time series analysis. Description: Examine how excitement/critique has changed over time since the model release (other answers are possible)}{}
+    
+    \solution{Method: pretrained representations / ideological mapping. Description: Use pretrained representations to map people or tweets into ideological spaces, such as excited/critical and analyzes differences accross groups}{}
+
+    
+    \item What are two limitations or ethical considerations of analyzing this data? (4~points)
+
+    \solution{(1) Sample of tweets may not be representative (2) What people post on twitter may be different than what they actual think or feel (3) twitter users did not explicitly consent to your analysis (4) working with data posted by individuals risks violating their privacy}{\vspace{4cm}}
+\end{enumerate}
+
+\item What is one of the key ways in which a social scientist's approach to a problem often differs from an NLP scientist's approach? Provide an example from each discipline illustrating this difference. (6 points)
+\solution{Many core social science tasks focus on explanation while NLP often focuses on prediction. [2 points]}{\vspace{7cm}}
+
+\solution{Social science examples: When and why do senators deviate from party ideologies? Analyze the impact of gender and race on the U.S. hiring system. Examine to what extent recommendations affect shopping patterns vs. other factors [2 point]}{}
+
+\solution{NLP examples: How many senators will vote for a proposed bill? Predict which candidates will be hired based on their resumes. Recommend related products to Amazon shoppers [2 point]}{}
+
+
+
+{\vspace{8cm}}
+\end{enumerate}
+
+\end{document}
+
