@@ -41,3 +41,21 @@
 2022-10-03:18:48:37 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   670  open midterm-2021.tex
 2022-10-03:18:49:32 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   671  open midterm-2021.tex 
 2022-10-03:18:50:25 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   672  grep solution *.tex
+2025-08-25:20:09:50 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   573  cd exam/
+2025-08-25:20:10:10 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   574  vi final-2024.tex
+2025-08-25:20:10:24 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   575  ls -lt ~/Downloads/ | head
+2025-08-25:20:10:54 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   576  ls -lt ~/Downloads/IntroHLT_Final_Exam_2024\ \(1\).pdf final-2024-solution.pdf
+2025-08-25:20:10:59 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   577  mv ~/Downloads/IntroHLT_Final_Exam_2024\ \(1\).pdf final-2024-solution.pdf
+2025-08-25:20:11:31 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   578  mv ~/Downloads/IntroHLT_Final_Exam_2024\ \(1\).pdf final-2024.pdf
+2025-08-25:20:12:23 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   579  vi second-midterm-2024.tex
+2025-08-25:20:12:40 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   580  ls -lt ~/Downloads/ | head
+2025-08-25:20:13:00 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   581  mv ~/Downloads/IntroHLT_Second_Midterm_2024.pdf second-midterm-2024.pdf
+2025-08-25:20:13:15 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   582  mv second-midterm-2024.pdf second-midterm-2024-solution.pdf
+2025-08-25:20:13:39 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   583  mv ~/Downloads/IntroHLT_Second_Midterm_2024.pdf second-midterm-2024.pdf
+2025-08-25:20:14:01 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   584  vi first-midterm-2024.tex
+2025-08-25:20:14:13 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   585  ls -lt ~/Downloads/ | head
+2025-08-25:20:14:46 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   586  mv ~/Downloads/IntroHLT_First_Midterm_2024\ \(2\).pdf first-midterm-2024-solution.pdf
+2025-08-25:20:15:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   587  mv ~/Downloads/IntroHLT_First_Midterm_2024\ \(2\).pdf first-midterm-2024.pdf
+2025-08-25:20:15:19 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   588  ls -lt | head
+2025-08-25:20:15:37 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   589  git add first-midterm-2024* second-midterm-2024* final-2024*
+2025-08-25:20:15:40 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   590  ls -lt | head -20

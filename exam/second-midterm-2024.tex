@@ -1,0 +1,345 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+%\usepackage{comment}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.1in}
+
+\newcounter{QuestionCounter}
+%\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+
+\newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+
+\newcommand{\solution}[2]{\textcolor{blue}{\em #1}} % show
+%\newcommand{\solution}[2]{#2} % hide
+
+\begin{document}
+
+
+{\ }
+\vskip 1in
+
+\centerline{\Huge\bf Second Midterm Exam}
+\vskip .5in
+\centerline{\LARGE\bf 601.467/667 Introduction to Human Language Technology}
+\vskip .2in
+\centerline{\Large Fall 2024}
+\vskip .1in
+\centerline{\Large Johns Hopkins University}
+\vskip .1in
+\centerline{\Large Co-ordinator: Philipp Koehn}
+\vskip .3in
+\centerline{\Large 7 November 2024}
+\vskip 1in
+\centerline{\Large Complete all questions.}
+\vskip .2in
+\centerline{\Large Use additional paper if needed.}
+\vskip .2in
+\centerline{\Large Time: 75 minutes.}
+\vskip 1in
+\centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+
+\newpage
+\Question{\Large Auditory System}{15}
+\vskip .25in
+
+\begin{enumerate}
+\item You are provided with a chart of equal loudness curves. 
+\begin{center} \includegraphics[width=0.75\textwidth]{ELC.jpg} \end{center}
+
+\begin{enumerate}
+\item[a.] Compare the minimum audible sound pressure level at 1KHz and 10KHz. Which frequency requires a higher dB SPL to be just audible, and by how much? 
+ \hfill (5 points)\\
+ 
+ \solution{To find the minimum audible sound pressure levels according to the threshold of hearing (the lowest curve on the chart):
+\begin{itemize}
+\item Locate the points on the lowest curve where it intersects 1 kHz and 10 kHz.
+\item At 2 kHz, the threshold of hearing is approximately 0 dB SPL, indicating that this is near the most sensitive range of human hearing.
+\item At 10 kHz, the threshold of hearing is typically around 10 dB SPL.
+Thus, a 10 kHz tone needs to be about 10 dB louder than a 1 kHz tone to be just audible.
+\end{itemize}
+}{\vspace{4cm}}
+
+\item[b.] Explain how this information relates to perceptual audio coding, like MP3 compression
+ \hfill (5 points)\\
+ 
+ \solution{
+This difference in sensitivity is leveraged in MP3 and other perceptual coding formats. Since the human ear is more sensitive around 2 kHz, audio compression algorithms prioritize accuracy in this frequency range while reducing precision at frequencies like 10 kHz, where the ear is less sensitive. MP3 coding removes inaudible or less noticeable sounds hence achieving a reduction of file size (compression) without a perceptible loss in quality.
+}{\vspace{4cm}}
+ 
+\end{enumerate}
+
+
+\item List the basic states of the vocal cords and describe their role in the generation of speech sounds. \hfill (5 points)\\
+\solution{
+The vocal folds, also known as vocal cords, play a crucial role in speech production by controlling the airflow and sound generation in the larynx. They take on 3 general states:
+\begin{enumerate}
+\item Breathing: where the fold muscles are relaxed, the glottis is wide open and air flows from and to lungs with no hindrance
+\item Voiced: where the folds open and close in a quasi-periodic pattern that represents the pitch of the speaker. The folds are voiced during production of vowels and some voiced non-vowels.
+\item Unvoiced: a similar state to breathing where there are no vocal fold vibrations but folds are closer together and more tense than in breathing state causing a hindrance to airflow. This is typical in production of a whisper sound like /h/
+\end{enumerate}
+}
+
+\end{enumerate}
+
+\newpage
+\Question{Speech Basics}{15}
+
+\begin{enumerate}
+\vskip .25in
+\item Express in your own words what would happen if human speech had very low entropy or very high entropy. Justify your response. (5pt)  \\
+\solution{Given that we do not all pronounce sounds in the same way and that there can be channel influences in the speech signals (background noise, excessive reverberation, etc), the fact that the speech signal is to some extent predictable due to grammar, phonotactics, language rules, context, allows us to "fill the gap" of sounds or even words we do not perceive well. But if the signal were 100\% predictable all the time, that would mean that we do not need to speak as there is no new information to convey. Therefore, we need a balance between predictability and unpredictability. 
+}{\vspace{3.5cm}}
+
+
+\item Respond to the following questions (you might need to use the figure below) (4pt): \\ 
+a) Name the three main articulators involved in the production of vowels? \\
+\solution{Tongue, jaw, lips.}{\vspace{5mm}}\\
+b) 	Vowels are sonorant sounds. Nasals are consonants, but are they sonorant? Justify your response.\\
+\solution{Nasals are sonorant. Vocal folds are involved in producing nasals.}{\vspace{5mm}}\\
+c) According to the IPA table, can Flaps be bilabial? If affirmative, please provide two examples. \\ %of labiodental fricative sounds. \\ 
+\solution{No, they cannot}{\vspace{5mm}}\\
+d) According to the IPA table, can plosives be velar? If affirmative, please, provide some examples of plosive velars.\\
+\solution{Yes, they can. k and g.}{\vspace{0mm}}\\
+%f) According to the IPA table, which type of manner class and articulation place corresponds to the sound\\
+%\solution{Plosive, Velar --- Not gradable, no sound named in question}{\vspace{1cm}}
+
+%\begin{figure}[h]
+%    \centering
+\vspace{-1cm}
+\begin{center}
+    \includegraphics[width=\columnwidth]{IPATABLE.png}\vspace{-1cm}
+\end{center}
+%    \caption{IPA Table}
+%\end{figure}
+
+
+\newpage
+\item What are the differences between graphemes and phonemes (3pt) \\
+\solution{A phoneme is a perceptually distinct speech element that could distinguish one word from another. A grapheme is a letter or combination of several letters that represent a sound (phoneme).}{\vspace{5cm}}
+
+
+\item Describe the differences between articulation place and manner classes. Describe at least two examples of each (3pt)  \\
+\solution{Manner classes are ways in which we articulate that produce consonant sounds. For instance, plosives are manner classes. In plosives we close completely the vocal tract and release the air stream to generate the sounds. Fricatives are also manner classes. In fricatives, we constrict the vocal tract partially, which creates turbulences that generate the fricative sounds.
+In contrast, articulation places are points or areas in the vocal tract where there is a constriction (with or without contact) which has the most relevance in the generated sound. Articulation points can be alveolar, glottal, labiodental, etc. In alveolar points, the tongue generates a constriction (total or partial) in the front of the hard palate. In bilabial articulation points, the lips generate the constriction.
+}{\vspace{3cm}}
+
+\end{enumerate}
+
+
+\newpage
+%\Question{Hidden Markov Models in ASR}{20}
+%\vskip .25in
+%\begin{enumerate}
+%
+%\item Why did the chicken cross the road?\hfill (5 points)
+%
+%\solution{To get to the other side.}{\vspace{5cm}}
+%
+%\end{enumerate}
+\Question{Classic Speech Recognition}{7}
+\vskip .25in
+\begin{enumerate}
+
+\item Speech recognition is typically formulated as identifying the most likely word sequence $\hat{\mathbf{W}}$ given an acoustic signal $\mathbf{A}$, i.e.:
+\begin{align*}
+\hat{\mathbf{W}} & = \arg \max_\mathbf{W} P(\mathbf{W}|\mathbf{A}) \\
+\intertext{This can be difficult to estimate, and is reformulated using Bayes' theorem:}
+& = \arg \max_\mathbf{W} \frac{P(\mathbf{A}|\mathbf{W})P(\mathbf{W})}{P(\mathbf{A})} \\
+& = \arg \max_\mathbf{W} P(\mathbf{A}|\mathbf{W})P(\mathbf{W})
+\end{align*}
+What are $P(\mathbf{A}|\mathbf{W})$ and $P(\mathbf{W})$ referred to, and what do they model? \hfill (4~points) \\
+\solution{
+\begin{itemize}
+    \item (1pt) $P(\mathbf{A}|\mathbf{W})$ is the ``acoustic model''
+    \item (1pt) The acoustic model models the the space of sounds that can manifest from a particular word seqeunce
+    \item (1pt) $P(\mathbf{W})$ is the ``language model''
+    \item (1pt) The language model models how likely any given word sequence is, regardless of the observed audio
+\end{itemize}
+}{\vspace{5cm}}
+
+\item Hidden Markov Models are state machines with both probabilistic transitions and outputs. Individual phonemes have been modeled with just a few HMM states, but can be strung together into larger models of words and then word sequences.
+\begin{enumerate}
+    \item[a.] What is the main benefit to modeling phonemes rather than words or word sequences directly? \hfill (1~point)
+    \solution{ \\
+    (1pt) We have very few training examples of any particular word sequence, but many examples of all phonemes, which can be shared between word sequences.
+    }{\vspace{1.7cm}}
+    \item[b.] What is the main challenge resulting from breaking down word sequences into hundreds of sub-phonetic HMM states? \hfill (1~point)
+    \solution{ \\
+    (1pt) There are heavy computational costs to evaluating all possible state sequences, requiring specialized algorithms.
+    }{\vspace{1.7cm}}
+    \item[c.] Each phoneme is typically modeled with three states in a simple left-to-right topology with additional self-loop transitions. Give one reason this model is appropriate for phonemes. \hfill (1~point)
+    \solution{ \\ (1pt) Either of the following:
+    \begin{itemize}
+        \item The onset, stationary middle, and decay can be modeled separately
+        \item Self-loops aid in modeling phonemes like vowels which can vary in length
+    \end{itemize}
+    }{\vspace{0cm}}
+\end{enumerate}
+
+\end{enumerate}
+\newpage
+
+
+\newpage
+\Question{Speaker Recognition}{20}
+\vskip .25in
+
+\begin{enumerate}
+\item Draw the scheme of a generic speaker embedding network and explain the roles of the different parts of the network. Name different architecture choices for each one of the parts.   \hfill (8 points)\\
+\solution{
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{xvector.png}
+    \caption{speaker embedding network (2 points)}
+    %\label{fig:enter-label}
+\end{figure}
+X-Vector network has three parts:
+\begin{itemize}
+    \item Encoder: Gets log-Mel spectrogram features as input and produces speaker discriminant frame-level hidden representations as output. Different architectures in the literature include time-delay neural networks, 2d convolutional residual networks, and ecapa-tdnn networks (2 points).
+    \item Pooling: Summarizes the frame-level hidden representations into a single vector per audio. Some methods are global mean pooling, global statistics pooling (mean+standard deviation), attentive statistics pooling, multi-head attention and channel-wise attentive statistics pooling (2 points).
+    \item Classification Head: Predicts posterior probabilities for the training speakers given the pooling vector. At inference time, we extract the speaker embedding from a middle layer of the classification head (2 points).
+\end{itemize}
+}{\vspace{5cm}}
+\newpage 
+
+\item Define the probability of false alarm and probability of false rejection and how to calculate them \hfill (4 points) \\
+\solution{\begin{itemize}
+\item $P_\text{fa}$: Is the probability for an impostor to be classified as a true target speaker. This is calculated by setting a decision threshold on the speaker verification scores, counting the number of times an impostor is accepted and dividing by the total number of impostor trials.
+\item $P_\text{fr}$: Is the probability for true target speaker to be classified as an impostor. This is calculated by setting a decision threshold on the speaker verification scores, counting the number of times an true target is rejected and dividing by the total number of target trials.
+\end{itemize}
+}{\vspace{5cm}}
+
+\item Explain how to plot the Detection Error Trade-off curve and how to calculate the EER \hfill (4 points) \\
+\solution{\begin{itemize}
+\item DET curve plots the prob. of false alarm in the x-axis versus the prob. of false rejection or miss in the y-axis. To calculate it, we need to move the detection threshold from the minimum to the maximum score in our test scores. For each threshold value, we calculate the prob. of miss and prob. of false alarm. This gives us a point of the curve. The pairs of $(P_\text{fa}, P_\text{fr})$ for all thresholds give us the full curve
+\item The EER is the point in the curve where the prob of false alarm is equal to prob. of rejection EER=$P_\text{fa}=P_\text{fr}$.
+\end{itemize}
+}{\vspace{5cm}}
+
+\item Suppose you have an SV system that produces well-calibrated log-likelihood ratios, and you want to use it on an application where the prior probability of observing a target trial (true user) is $P_T$. Derive the formula for the decision threshold that we need to apply to the log-likelihood ratio. \hfill (4 points)\\
+\solution{\begin{itemize}
+\item To accept a target trial, the posterior probability for target trial has to be $P(T|x_e, x_t)\le 0.5$.
+\item Write the posterior as a function of the LLR using Bayes Theorem:\\
+\includegraphics[width=0.9\linewidth]{ptar.png}
+\item Isolate the LLR from the eq. above:
+\includegraphics[width=0.5\linewidth]{threshold.png}
+\end{itemize}
+}{\vspace{2cm}}
+\end{enumerate}
+
+
+\newpage
+\Question{Neural Networks in ASR}{15}
+\vskip .25in
+We discussed modifications of the Encoder-Decoder architectures used in Machine Translation and how they can be used for speech recognition. The first part of this question pertains to those modifications. In the next part of the question we will discuss encoder only alternatives to encoder-decoder models.
+
+\begin{enumerate}
+
+\item How does audio input cause problems for Encoder-Decoder models. Mention the computational complexity of self-attention.   \hfill (4 points)\\
+\solution{Audio for ASR is normally sampled at 16 kHz. Assuming a speaking rate of about 2 words per second, and an average sentence length of 15 words (any such similar numbers will do), the average audio input could easily be about 7.5 seconds, or 120,000 input samples. Even using MFCCs, which have a lower frame rate $\left(\sim 100 Hz\right)$ the average input length would be 700 samples. This is significantly longer than inputs used in Machine Translation. Because self-attention has a computational complexity of $\mathcal{O}\left(N^2\right)$ in the length, $N$, of the input, using such long sequences is prohibitively expensive.}{\vspace{5cm}}
+
+\item What operation is normally performed on speech inputs at the first few layers of the encoder to address this issue? \hfill (2 points)\\
+\solution{Strided Convolution.}{\vspace{3cm}}
+
+
+\item Encoder only models are often used instead of encoder-decoder models for ASR. Name the commonly used objective function, discussed in class, used for sequence-level training of encoders in ASR and describe how it accounts for multiple possible valid alignments of the output sequence to the input speech. \hfill (3 points)\\
+\solution{CTC. It \emph{marginalizes} over all valid alignments, i.e., it is the sum of the scores of any valid alignment.}{\vspace{2cm}}
+
+\newpage
+\item We discussed a particular way of aligning outputs to inputs in class by repeating output symbols and using a special blank symbol, $\oslash$. It is also the mechanism used in the sequence-level objective function described in the previous question. For an input speech utterance of length five, and using letters plus the blank symbol, $\oslash$, as the output units, enumerate all possible alignments of the word \texttt{all}, to the input speech. \hfill (6 points). 
+\solution{
+\begin{enumerate}
+    \item a a l $\oslash$ l
+    \item a l $\oslash$ l l
+    \item a l l $\oslash$ l 
+    \item a $\oslash$ l $\oslash$ l
+    \item $\oslash$ a l $\oslash$ l
+    \item a l $\oslash$ l $\oslash$
+    \item a l $\oslash$ $\oslash$ l
+\end{enumerate}}{\vspace{2cm}}
+\end{enumerate}
+\newpage
+\Question{Enhancement and Diarization} {14}
+\vskip .25in
+\begin{enumerate}
+\item What is speech enhancement, and what are three motivations for developing speech enhancement technologies? \hfill (4~points)\\
+\solution{
+\begin{itemize}
+    \item (1pt) Enhancement is the removal of interfering audio signals (e.g. noise or non-target speech) from a recording of desired speech.
+    \item (1pt) Enhancement is used to clean up audio for humans to listen to.
+    \item (1pt) Enhancement is used as pre-processing for downstream speech technology.
+    \item (1pt) Techniques developed for enhancement can be integrated into end-to-end systems for other tasks.
+\end{itemize}
+}{\vspace{6cm}}
+
+\item ``Synthetic'' data is often used in speech enhancement research. \hfill (4~points)
+\begin{enumerate}
+    \item[a.] What is synthetic data in this context?
+    \solution{ \\
+    (1pt) Synthetic data means artificially mixing clean speech and noise to produce noisy speech rather than collecting natural recordings of speech with noise.
+    }{\vspace{3cm}}
+    \item[b.] What is the purpose of using it?
+    \solution{ \\
+    (1pt) It allows us to have a ground truth clean speech signal for a noisy recording.
+    }{\vspace{3cm}}
+    \item[c.] What are some implications for the development, testing, and deployment of systems developed using synthetic data?
+    \solution{ \\
+    (2pt) Any two of the following:
+    \begin{itemize}
+        \item It allows supervised training (i.e. training to directly produce the ground truth)
+        \item It allows full-reference evaluation metrics
+        \item It excludes in-domain training for real evaluation conditions.
+    \end{itemize}}{\vspace{3cm}}    
+\end{enumerate}
+
+\newpage
+\item The ``permutation'' problem arises in both enhancement and diarization. \hfill (4~points)
+\begin{enumerate}
+    \item[a.] What is the permutation problem?
+    \solution{ \\
+    (1pt) A system (generally neural network) necessarily is going to produce its outputs in a given order, but in some tasks all permutations of output order are equally valid, and so accordingly the order should not matter for the network's training.
+    }{\vspace{2cm}}
+    \item[b.] Where does the problem arise in enhancement/separation?
+    \solution{ \\
+    (1pt) In speech separation, there is no reason to output the speech signals in any particular order. However, it does \textbf{not} generally exist in enhancement, as the speech/noise distinction defines the outputs.
+    }{\vspace{2cm}}
+    \item[c.] Where does the problem arise in diarization?
+    \solution{ \\
+    (1pt) Diarization does not necessarily require true speaker labels, so the order of output speaker activities can be in any order.
+    }{\vspace{2cm}}
+    \item[d.] Give an example of an approach used to address this problem.
+    \solution{ \\
+    (1pt) Either of the following:
+    \begin{itemize}
+        \item Permutation Invariant Training (computing the loss function on all permutations and only backpropagating the lowest loss)
+        \item Any sort of clustering-based method (e.g. Deep Clustering)
+    \end{itemize}
+    }{\vspace{2cm}}
+\end{enumerate}
+
+\item Recording audio on an array of microphones (i.e. producing a multi-channel input signal and potentially performing beamforming) generally improves diarization performance. Give two examples of how this helps. \hfill (2~points) \\
+\solution{
+(2pts) Any two of the following:
+\begin{itemize}
+    \item Simply speaking, additional observations of the desired/interfering signals leads to more information to use.
+    \item Beamforming suppresses interfering signals (i.e. is a speech enhancement method) and can be used as a pre-processing step for diarization systems.
+    \item Multichannel audio collected by an array contains localizing information, and different people generally are observed in different locations.
+\end{itemize}
+}{\vspace{4cm}}
+
+\end{enumerate}
+
+\newpage
+
+\textbf{\Large Extra Space}
+\end{document}
+

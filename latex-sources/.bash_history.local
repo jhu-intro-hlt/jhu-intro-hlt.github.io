@@ -163,3 +163,11 @@
 2023-09-29:11:03:16 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   545  grep java .bash_history.local | tail
 2023-09-29:11:03:32 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   546  java -jar ~/Code/bin/pp4p.jar lecture-information-extraction.pdf lecture-information-extraction.view.pdf 
 2023-09-29:11:03:48 MacBook-Phi-2019.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   547  cp lecture-information-extraction.*pdf ../slides/
+2025-08-25:20:03:38 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   558  cd latex-sources/
+2025-08-25:20:03:39 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   559  ls -l
+2025-08-25:20:03:55 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   560  cp -p lecture-introduction.tex lecture-introduction-2024.tex
+2025-08-25:20:04:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   561  cp -p lecture-introduction.pdf lecture-introduction-2024.pdf
+2025-08-25:20:04:20 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   562  open lecture-introduction.tex 
+2025-08-25:20:08:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   563  ls -l
+2025-08-25:20:08:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   564  ls -lt | more
+2025-08-25:20:08:26 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   565  git add lecture-introduction.* lecture-introduction-2024.*
