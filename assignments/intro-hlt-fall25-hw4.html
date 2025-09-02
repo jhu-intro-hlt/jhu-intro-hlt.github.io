@@ -8,10 +8,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="intro-hlt-fall21-hw2.fld/filelist.xml">
-<link rel=themeData href="intro-hlt-fall21-hw2.fld/themedata.thmx">
+<link rel=File-List href="intro-hlt-fall21-hw4.fld/filelist.xml">
+<link rel=themeData href="intro-hlt-fall21-hw4.fld/themedata.thmx">
 <link rel=colorSchemeMapping
-href="intro-hlt-fall21-hw2.fld/colorschememapping.xml">
+href="intro-hlt-fall21-hw4.fld/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
@@ -642,7 +642,7 @@ href="intro-hlt-fall21-hw2.fld/colorschememapping.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+	mso-font-signature:3 0 0 0 1 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;
@@ -747,9 +747,6 @@ span.Heading1Char
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -771,9 +768,9 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:1200896997;
+	{mso-list-id:1442871291;
 	mso-list-type:hybrid;
-	mso-list-template-ids:418694790 -1504273076 226268760 1333962176 1452987568 466019640 644251752 -1995542320 1726106634 1872899768;}
+	mso-list-template-ids:784087420 -1614506356 229436774 -466724454 -113502088 -100085966 1802665424 -91456104 -1318551434 -1002798424;}
 @list l0:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1012,25 +1009,31 @@ ul
 
 <div class=WordSection1>
 
-<h1 style='margin-bottom:36.65pt'>Homework Assignment 2 601.467/667
-Introduction to Human Language Technology Fall 2024 </h1>
+<h1 style='margin-bottom:.25in'>Homework Assignment 4 </h1>
 
-<h1 style='margin-bottom:36.65pt'>Due: Wednesday September 25, 2024</h1>
+<h1 style='margin-bottom:.25in'>601.467/667 Introduction to Human Language
+Technology </h1>
+
+<h1 style='margin-bottom:.25in'>Fall 2025 </h1>
+
+<h1 style='margin-bottom:.25in'>Due: Wednesday November 26, 2025</h1>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:20.4pt;
 margin-left:-.75pt;text-indent:17.55pt'>In the last couple of weeks, you have
-learned about language modeling using recurrent neural networks (RNNs), and
-distributional semantics (word2vec, <span class=SpellE>GloVe</span>, etc.).
-This assignment focuses on these 2 <span class=GramE>topics, and</span>
-demonstrates some of the ideas you came across in the lectures. All the
-questions and related instructions can be found on <a
-href="https://colab.research.google.com/drive/1LpoQB6eFrA196YRWDVmDM_PbJT6L6QvA?usp=sharing"><span
-style='color:blue;text-decoration:none;text-underline:none'>this Google Colab Link</span></a></p>.
+learned about the classic and end-to-end paradigms of speech recognition. In
+this assignment, you will build an end-to-end ASR for a subset of <span
+class=SpellE>Librispeech</span>, using the CTC framework that you learned in
+class. All the questions and related instructions can be found on <a
+href="https://colab.research.google.com/drive/1HgrAGc-0y6uxELrsFSyHNAt-KZR8oLrM?usp=sharing"><span
+style='color:blue;text-decoration:none;text-underline:none'>this Google <span
+class=SpellE>Colab</span> link</span></a><a
+href="https://colab.research.google.com/drive/1HgrAGc-0y6uxELrsFSyHNAt-KZR8oLrM?usp=sharing"><span
+style='color:black;text-decoration:none;text-underline:none'>.</span></a></p>
 
 <h2 style='margin-left:-.25pt'>What to hand-in</h2>
 
 <p class=MsoNormal style='margin-left:-.25pt'>Instructions for submission can
-be found in the notebook. You will turn in the completed
+be found on the notebook. You will turn in the completed
 notebook on <span class=SpellE>Gradescope</span> along with necessary model checkpoint files. Remember to:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:11.55pt;
@@ -1042,7 +1045,7 @@ notebook.</p>
 <p class=MsoNormal style='margin-left:29.25pt;text-indent:-14.95pt;mso-list:
 l0 level1 lfo1'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><![endif]>Upload the full complete
-    notebook along with necessary checkpoint files.</p>
+    notebook along with necessary checkpoint files (using OneDrive with public sharing link).</p>
 
 <p class=MsoNormal style='margin-left:29.25pt;text-indent:-14.95pt;mso-list:
 l0 level1 lfo1'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
@@ -1050,18 +1053,16 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><![endif]>Select
 pages for the respective questions on <span class=SpellE>Gradescope</span> under the writing part.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:19.85pt;
-margin-left:-.75pt;text-indent:17.55pt'>For this assignment, you are required
-to work <b style='mso-bidi-font-weight:normal'>independently</b>, i.e., you may
-not collaborate with other students. You are allowed to discuss general
+margin-left:-.75pt;text-indent:17.55pt'>For this assignment, you can collaborate with other students to form a team of up to 3 people. Beyond your teammates, you are allowed to discuss general
 concepts and ideas related to the assignment, but you must not discuss actual
-solutions. </p>
+solutions. You have to handle one single group submission to Gradescope with your teammates added.</p>
 
 <h2 style='margin-left:-.25pt'>How to submit</h2>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:57.4pt;
 margin-left:-.25pt'>Enroll yourself in the <span class=SpellE>Gradescope</span>
 class (entry code provided on the website) and submit the PDF before 11.59 PM (EDT)
-on October 11, 2023 (Wednesday). Late policy please refer to the website. If you face any technical/other difficulties, please contact the
+on November 26, 2025 (Wednesday). Late policy please refer to the website. If you face any technical/other difficulties, please contact the
 TA/CAs on Piazza.</p>
 
 <p class=MsoNormal align=center style='margin:0in;text-align:center;text-indent:

@@ -8,10 +8,28 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="intro-hlt-fall21-hw4.fld/filelist.xml">
-<link rel=themeData href="intro-hlt-fall21-hw4.fld/themedata.thmx">
+<link rel=File-List href="intro-hlt-fall21-hw3.fld/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Philipp Koehn</o:Author>
+  <o:LastAuthor>Philipp Koehn</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:LastPrinted>2021-10-15T03:07:00Z</o:LastPrinted>
+  <o:Created>2021-10-15T03:08:00Z</o:Created>
+  <o:LastSaved>2021-10-15T03:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>252</o:Words>
+  <o:Characters>1438</o:Characters>
+  <o:Lines>11</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1687</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="intro-hlt-fall21-hw3.fld/themedata.thmx">
 <link rel=colorSchemeMapping
-href="intro-hlt-fall21-hw4.fld/colorschememapping.xml">
+href="intro-hlt-fall21-hw3.fld/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
@@ -716,6 +734,22 @@ h2
 	mso-bidi-font-family:Cambria;
 	color:black;
 	mso-bidi-font-weight:normal;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.5pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Cambria;
+	color:black;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
 	mso-style-unhide:no;
@@ -744,6 +778,21 @@ span.Heading1Char
 	mso-hansi-font-family:Cambria;
 	mso-bidi-font-family:Cambria;
 	color:black;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:Cambria;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -768,9 +817,9 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:1442871291;
+	{mso-list-id:158888807;
 	mso-list-type:hybrid;
-	mso-list-template-ids:784087420 -1614506356 229436774 -466724454 -113502088 -100085966 1802665424 -91456104 -1318551434 -1002798424;}
+	mso-list-template-ids:505333792 746466456 1139160434 -1243851270 -1328742868 1715385136 -1347540938 167774558 -546811018 713471446;}
 @list l0:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1009,26 +1058,23 @@ ul
 
 <div class=WordSection1>
 
-<h1 style='margin-bottom:.25in'>Homework Assignment 4 </h1>
+<h1 style='margin-bottom:36.65pt'>Homework Assignment 3 </h1>
 
-<h1 style='margin-bottom:.25in'>601.467/667 Introduction to Human Language
+<h1 style='margin-bottom:36.65pt'>601.467/667 Introduction to Human Language
 Technology </h1>
 
-<h1 style='margin-bottom:.25in'>Fall 2024 </h1>
+<h1 style='margin-bottom:36.65pt'>Fall 2025 </h1>
 
-<h1 style='margin-bottom:.25in'>Due: Wednesday November 27, 2024</h1>
+<h1 style='margin-bottom:36.65pt'>Due: Wednesday October 29, 2025</h1>
 
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:20.4pt;
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:19.8pt;
 margin-left:-.75pt;text-indent:17.55pt'>In the last couple of weeks, you have
-learned about the classic and end-to-end paradigms of speech recognition. In
-this assignment, you will build an end-to-end ASR for a subset of <span
-class=SpellE>Librispeech</span>, using the CTC framework that you learned in
-class. All the questions and related instructions can be found on <a
-href="https://colab.research.google.com/drive/1HgrAGc-0y6uxELrsFSyHNAt-KZR8oLrM?usp=sharing"><span
-style='color:blue;text-decoration:none;text-underline:none'>this Google <span
-class=SpellE>Colab</span> link</span></a><a
-href="https://colab.research.google.com/drive/1HgrAGc-0y6uxELrsFSyHNAt-KZR8oLrM?usp=sharing"><span
-style='color:black;text-decoration:none;text-underline:none'>.</span></a></p>
+learnt about sequence to sequence models, and you have also been introduced to
+phonemes, which are the smallest units of speech. In this assignment, you will
+put these together by implementing a seq2seq model for pronunciation prediction
+of English words. All the questions and related instructions can be found on <a
+href="https://colab.research.google.com/drive/1l8CSd_oHpLyPdYM12AigFlWoDVfWxA_R?usp=sharing"><span
+style='color:blue;text-decoration:none;text-underline:none'>this Google Colab Link</span></a></p>.
 
 <h2 style='margin-left:-.25pt'>What to hand-in</h2>
 
@@ -1045,7 +1091,7 @@ notebook.</p>
 <p class=MsoNormal style='margin-left:29.25pt;text-indent:-14.95pt;mso-list:
 l0 level1 lfo1'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><![endif]>Upload the full complete
-    notebook along with necessary checkpoint files (using OneDrive with public sharing link).</p>
+    notebook along with necessary checkpoint files.</p>
 
 <p class=MsoNormal style='margin-left:29.25pt;text-indent:-14.95pt;mso-list:
 l0 level1 lfo1'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
@@ -1062,7 +1108,7 @@ solutions. You have to handle one single group submission to Gradescope with you
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:57.4pt;
 margin-left:-.25pt'>Enroll yourself in the <span class=SpellE>Gradescope</span>
 class (entry code provided on the website) and submit the PDF before 11.59 PM (EDT)
-on November 27, 2024 (Wednesday). Late policy please refer to the website. If you face any technical/other difficulties, please contact the
+on October 29, 2025 (Wednesday). Late policy please refer to the website. If you face any technical/other difficulties, please contact the
 TA/CAs on Piazza.</p>
 
 <p class=MsoNormal align=center style='margin:0in;text-align:center;text-indent:
