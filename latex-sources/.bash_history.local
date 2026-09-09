@@ -174,3 +174,8 @@
 2025-09-22:01:45:16 MacBook-Phi-2115.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   503  cd latex-sources/
 2025-09-22:01:45:17 MacBook-Phi-2115.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   504  ls
 2025-09-22:01:45:50 MacBook-Phi-2115.local /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   505  ls -l lecture-in*
+2026-09-01:08:08:53 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   489  cd latex-sources/
+2026-09-01:08:08:54 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   490  ls
+2026-09-01:08:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   491  open lecture-introduction.tex 
+2026-09-01:08:20:38 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   507  cd latex-sources/
+2026-09-01:08:20:42 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/latex-sources   508  open .
