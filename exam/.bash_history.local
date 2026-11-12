@@ -59,3 +59,419 @@
 2025-08-25:20:15:19 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   588  ls -lt | head
 2025-08-25:20:15:37 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   589  git add first-midterm-2024* second-midterm-2024* final-2024*
 2025-08-25:20:15:40 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   590  ls -lt | head -20
+2026-11-12:06:55:35 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   624  cd exam/
+2026-11-12:06:55:36 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   625  ls
+2026-11-12:06:55:50 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   629  cd exam/
+2026-11-12:06:55:50 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   630  ls
+2026-11-12:06:56:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   631  vi first-midterm-2026.tex
+2026-11-12:06:56:57 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   632  pdflatex first-midterm-2026
+2026-11-12:06:57:20 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   633  vi first-midterm-2026.tex 
+2026-11-12:06:57:24 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   634  ls -lt | head
+2026-11-12:06:57:28 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   635  mv first-midterm-2026.pdf x.pdf
+2026-11-12:06:57:31 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   636  pdflatex first-midterm-2026
+2026-11-12:06:57:46 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   637  mv first-midterm-2026.pdf first-midterm-2026-solution.pdf
+2026-11-12:06:57:47 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   638  ls
+2026-11-12:06:58:08 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   639  mv x.pdf first-midterm-2026.pdf
+2026-11-12:06:58:14 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   640  git add first-midterm-2026*tex
+2026-11-12:06:58:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   641  git add first-midterm-2026*pdf
+2026-11-12:06:58:51 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   642  vi final-2025.tex
+2026-11-12:06:58:59 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   643  pdflatex \documentclass[12pt]{article}
+2026-11-12:06:59:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   644  ls -lt | head
+2026-11-12:06:59:15 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:15 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:16 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   645  pdflatex final-2025
+2026-11-12:06:59:28 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   646  mv final-2025.pdf final-2025-solution.pdf
+2026-11-12:06:59:39 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   647  vi final-2025.tex
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:49 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   648  pdflatex final-2025
+2026-11-12:06:59:54 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   649  open final-2025.pdf
+2026-11-12:07:00:56 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   650  vi final-2025.tex 
+2026-11-12:07:00:59 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   651  pdflatex final-2025
+2026-11-12:07:01:13 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   652  vi final-2025.tex 
+2026-11-12:07:01:17 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   653  pdflatex final-2025
+2026-11-12:07:01:21 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   654  mv final-2025.pdf final-2025-solution.pdf
+2026-11-12:07:01:39 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   655  vi final-2025.tex 
+2026-11-12:07:01:43 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   656  pdflatex final-2025
+2026-11-12:07:01:55 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   657  ls -lt | head
+2026-11-12:07:02:01 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   658  git add final-2025*pdf
+2026-11-12:07:02:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   659  git add final-2025*tex
+2026-11-12:07:03:44 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   660  mkdir x
+2026-11-12:07:04:19 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   666  cd ..
+2026-11-12:07:04:37 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   667  ls
+2026-11-12:07:04:47 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   668  mv x second-midterm-2025
+2026-11-12:07:05:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   669  rm second-midterm-2025/.bash_history.local 
+2026-11-12:07:05:14 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   670  mv second-midterm-2025/main.tex second-midterm-2025.tex
+2026-11-12:07:06:32 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   671  vi second-midterm-2025.tex 
+2026-11-12:07:06:38 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   672  pdflatex second-midterm-2025
+2026-11-12:07:06:47 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   673  vi second-midterm-2025.tex 
+2026-11-12:07:06:58 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   674  mv second-midterm-2025.pdf second-midterm-2025-solution.pdf
+2026-11-12:07:07:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   675  pdflatex second-midterm-2025
+2026-11-12:07:07:09 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   676  git add second-midterm-2025
+2026-11-12:07:07:11 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   677  git add second-midterm-2025*pdf
+2026-11-12:07:07:15 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   678  git add second-midterm-2025*tex
+2026-11-12:07:07:41 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   679  ls -lt | gead
+2026-11-12:07:07:46 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   680  ls -lt *tex | head
+2026-11-12:07:08:36 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   681  vi first-midterm-2025.tex
+2026-11-12:07:08:59 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   682  mv ~/Downloads/mt-rnn.png .
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   683  mkdir \documentclass[12pt]{article}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   684  \usepackage{palatino}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   685  \usepackage{fullpage}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   686  \usepackage{graphicx}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   687  \usepackage{enumitem}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   688  \usepackage{multirow}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   689  \usepackage{latexsym}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   690  \usepackage{tikz,pgfplots} 
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   691  \usepackage{booktabs}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   691  \usepackage{booktabs}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   692  \usetikzlibrary{arrows,automata}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   692  \usetikzlibrary{arrows,automata}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   693  \usepackage{color}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   694  \usepackage{amsmath,amssymb}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   695  \usepackage[utf8]{inputenc}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   696  \pagestyle{empty}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   696  \pagestyle{empty}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   697  \setlength{\parindent}{0in}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   698  \setlength{\parskip}{.1in}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   698  \setlength{\parskip}{.1in}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   699  \newcounter{showsolution}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   700  \setcounter{showsolution}{1}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   701  \newcommand{\solution}[2]{\ifnum\value{showsolution}>0{\textcolor{blue}{#1}}\else{#2}\fi}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   701  \newcommand{\solution}[2]{\ifnum\value{showsolution}>0{\textcolor{blue}{#1}}\else{#2}\fi}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   702  \newcounter{QuestionCounter}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   703  %\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   703  %\newcommand{\Question}[1]{\refstepcounter{QuestionCounter} {\bf Question \arabic{QuestionCounter}}. [#1 points] }
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   704  \newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   704  \newcommand{\Question}[2]{\refstepcounter{QuestionCounter} \textbf{\Large {Q\arabic{QuestionCounter}}. #1\hfill\textit{#2 points}}}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   705  \begin{document}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   705  \begin{document}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   706  {\ }
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   707  \vskip 1in
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   707  \vskip 1in
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   708  \centerline{\Huge\bf First Midterm Exam}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   709  \vskip .5in
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   710  \centerline{\LARGE\bf 601.467/667 Introduction to Human Language Technology}
+2026-11-12:07:09:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   711  \vskip .2in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   712  \centerline{\Large Fall 2025}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   713  \vskip .1in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   714  \centerline{\Large Johns Hopkins University}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   715  \vskip .1in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   716  \centerline{\Large Co-ordinator: Philipp Koehn}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   717  \vskip .3in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   718  \centerline{\Large 2 October 2025}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   719  \vskip 1in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   720  \centerline{\Large Complete all questions.}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   721  \vskip .2in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   722  \centerline{\Large Use additional paper if needed.}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   723  \vskip .2in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   724  \centerline{\Large Time: 75 minutes.}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   725  \vskip 1in
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   726  \centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   726  \centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   726  \centerline{\Large Name of student: {\rule{3in}{0.4pt}}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   727  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   728  \newpage 
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   729  \newpage
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   730  \Question{\Large Morphology}{10}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   730  \Question{\Large Morphology}{10}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   731  \begin{enumerate}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   732  \item[1.]  Give an example an English word where
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   733  the prefix has undergone a sound-shift from its canonical form:
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   734  \hfill{\em (2 points)}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   735  \solution{e.g. impossible, illogical}{\vspace{4cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   735  \solution{e.g. impossible, illogical}{\vspace{4cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   735  \solution{e.g. impossible, illogical}{\vspace{4cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   736  \item[2.]  Is Turkish a {\sc polysynthetic} or {\sc agglutinative} language (circle one).
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   737  \hfill{\em (2 points)}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   738  \solution{e.g. agglutinative}{\vspace{1cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   738  \solution{e.g. agglutinative}{\vspace{1cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   738  \solution{e.g. agglutinative}{\vspace{1cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   738  \solution{e.g. agglutinative}{\vspace{1cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   739  \item[3.]  Is it easier to translate from a highly inflected language to a minimally inflected language or vice-versa?   Explain in detail why.
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   740  \hfill{\em (6 points)}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   741  \solution{.. }{\vspace{3cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   741  \solution{.. }{\vspace{3cm}}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   742  \end{enumerate}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   742  \end{enumerate}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   743  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   744  \newpage
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   745  \Question{\Large Syntax}{20}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   745  \Question{\Large Syntax}{20}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   746  \paragraph{Formal Language Theory}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   747  \begin{itemize}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   747  \begin{itemize}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   748  \item[1.] We defined a formal language $\cal{L}$ as a set of strings, where each string is composed of zero or more symbols, each of which is drawn from an alphabet, $\Sigma$.
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   749  \begin{itemize}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   750      \item[a.] What is the notation for \emph{all} possible strings drawn from $\Sigma$?\hfill{\em (2 points)}\\\\
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   750      \item[a.] What is the notation for \emph{all} possible strings drawn from $\Sigma$?\hfill{\em (2 points)}\\\\
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   751      \item[b.] What does $\epsilon$ denote?\hfill{\em (2 points)}\\\\
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   751      \item[b.] What does $\epsilon$ denote?\hfill{\em (2 points)}\\\\
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   752      \item[c.] Define alphabets that could be used for the following languages:
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   753      %
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   754      \begin{eqnarray*}
+2026-11-12:07:09:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   755      {\cal L}_1 =& \{\textrm{the set of English words}\} \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   756      {\cal L}_2 =& \{\textrm{the set of words in Russian}\} \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   757      {\cal L}_3 =& \{\textrm{all words in all human languages}\}\\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   758      \end{eqnarray*}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   759      %
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   760      ${\Sigma}_1$ = \\\\ \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   761      ${\Sigma}_2$ = \\\\\\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   762      ${\Sigma}_3$ = \hfill{\em (6 points)}\\\\\\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   763  \end{itemize}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   763  \end{itemize}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   764  \solution{All strings is $\Sigma^*$w or ``sigma star''. $\epsilon$ denotes the empty string. The $\Sigma$s for the three languages are the set of Latin-1 characters (ASCII isn't enough, since English words can have diacritics), the set of cyrillic characters, and the entire unicode character set. \vspace{1cm}}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   764  \solution{All strings is $\Sigma^*$w or ``sigma star''. $\epsilon$ denotes the empty string. The $\Sigma$s for the three languages are the set of Latin-1 characters (ASCII isn't enough, since English words can have diacritics), the set of cyrillic characters, and the entire unicode character set. \vspace{1cm}}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   765  \newpage
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   766  \item[2.]
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   767  We spent some time in class discussing the move from representing languages as explicit sets, to representing languages as the set of strings produced by some generative process, defined by lists of rules. The Chomsky hierarchy defines four language classes of increasing power, corresponding to four constraints on the rule format. 
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   768  In the box below, A, B, and C are nonterminal symbols, while $\alpha$, $\beta$, and $\gamma$ represent a mix of nonterminal and terminal symbols (with a length of at least one). \textbf{Note}: one entry in each column is a fake.
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   768  In the box below, A, B, and C are nonterminal symbols, while $\alpha$, $\beta$, and $\gamma$ represent a mix of nonterminal and terminal symbols (with a length of at least one). \textbf{Note}: one entry in each column is a fake.
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   769  \begin{itemize}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   770      \item[a.] Cross out the fake item in each column. \hfill{\em (1 point)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   770      \item[a.] Cross out the fake item in each column. \hfill{\em (1 point)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   771      \item[b.] Draw a line connecting each remaining item in the \emph{rule format} column with the corresponding entry in the \emph{language class} column.\hfill{\em (4 points)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   771      \item[b.] Draw a line connecting each remaining item in the \emph{rule format} column with the corresponding entry in the \emph{language class} column.\hfill{\em (4 points)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   772      \item[c.] For the two least powerful language classes (discussed in class), provide an informal example or description of a language that can be captured with rules from that class.\hfill{\em (4 points)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   772      \item[c.] For the two least powerful language classes (discussed in class), provide an informal example or description of a language that can be captured with rules from that class.\hfill{\em (4 points)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   773      \item[d.] Put a star next to the most powerful language class, and describe informally what its rules mean.\hfill{\em (1 point)}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   774  \end{itemize}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   775      
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   776  \begin{table}[h]
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   777  \centering
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   778  \begin{tabular}{|p{1in}|p{2in}|p{2.5in}|}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   779  \toprule
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   780  \textbf{rule format} 
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   781  & \textbf{language class}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   782  & \textbf{description} \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   783  \midrule
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   784  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   785  A\ $\rightarrow$\ b\ C
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   786  & context-sensitive & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   787  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   788  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   789  A\ $\rightarrow\alpha$
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   790  & context-friendly & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   791  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   792  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   793  $\alpha$A$\beta\rightarrow\alpha\gamma\beta$
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   794  & recursively enumerable & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   795  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   796  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   797  $\alpha\rightarrow\beta$
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   798  & regular & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   799  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   800  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   801  $\alpha$A$\beta\rightarrow \gamma$
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   802  & context-free & \\ 
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   803  & & \\
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   804  \bottomrule
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   805  \end{tabular}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   806  \end{table}
+2026-11-12:07:09:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   806  \end{table}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   807  \solution{(a) $\alpha\rightarrow\beta$ and ``context-friend'' are fake. (b) In order, the rule formats are regular, context-free, context-sensitive, fake, and recursively enumerable. (c) The weakest class is the class of regular languages. One regular language is the set of all integers, which can easily be captured with a rule that generates a digit and another rule that generates both a digit and the nonterminal. The next-weakest class is the class of context-free languages. Note that all regular languages are also context-free, so any regular language is also an example context-free language. The classic example of a language that is context-free but \emph{not} regular is the set of palindromes. (d) The most power language class is the class of recursively enumerable languages. The corresponding rule ($\alpha A \beta \rightarrow \gamma$ means that any sequence of terminals and nonterminals can be rewritten as anything; i.e., this situation is the absence of any constraint on the rules.}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   807  \solution{(a) $\alpha\rightarrow\beta$ and ``context-friend'' are fake. (b) In order, the rule formats are regular, context-free, context-sensitive, fake, and recursively enumerable. (c) The weakest class is the class of regular languages. One regular language is the set of all integers, which can easily be captured with a rule that generates a digit and another rule that generates both a digit and the nonterminal. The next-weakest class is the class of context-free languages. Note that all regular languages are also context-free, so any regular language is also an example context-free language. The classic example of a language that is context-free but \emph{not} regular is the set of palindromes. (d) The most power language class is the class of recursively enumerable languages. The corresponding rule ($\alpha A \beta \rightarrow \gamma$ means that any sequence of terminals and nonterminals can be rewritten as anything; i.e., this situation is the absence of any constraint on the rules.}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   808  \item[3.] What is the first sentence of the Penn Treebank?\hfill{\em (1 point extra credit)}\linebreak
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   809  \solution{\emph{Pierre Vinken, 61 years old, will join the board as a nonexecutive director Nov.\ 29.}. Full credit given if the sentence is more-or-less correct; one point of credit is given if the major gist is there.}{}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   809  \solution{\emph{Pierre Vinken, 61 years old, will join the board as a nonexecutive director Nov.\ 29.}. Full credit given if the sentence is more-or-less correct; one point of credit is given if the major gist is there.}{}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   810  \end{itemize}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   810  \end{itemize}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   811  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   812  \newpage
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   813  \Question{\Large Semantics}{15}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   813  \Question{\Large Semantics}{15}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   814  \begin{tabular}{l|*{6}{l}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   815  % tree atlas flower byte map extend
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   816  & $W_1$ & $W_2$ & $W_3$ & $W_4$ & $W_5$ & $W_6$ \\
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   817  \hline
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   818  $D_1$ & 6 & 0 & 9 & 0 & 0 & 3 \\ % botany
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   819  $D_2$ & 7 & 0 & 0 & 8 & 0 & 2 \\ % cs
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   820  $D_3$ & 0 & 8 & 0 & 0 & 11 & 3 \\ % refs
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   821  $D_4$ & 0 & 0 & 0 & 10 & 9 & 2 \\ % cs
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   822  \end{tabular}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   822  \end{tabular}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   823  \begin{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   824  \item Consider the above matrix of co-occurrence counts (documents by words). After the application of an appropriate distributional-semantic method (a matrix factorization like SVD, a Bayesian model like LDA, etc), which pair of words, and which pair of documents, will show dramatic increase in similarity?
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   825  \hfill{\em (10 points)}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   826  \solution{$W_1$ and $W_5$, initially with zero similarity, will move closer due to their association with $W_4$, and that shift will in turn draw $D_2$ and $D_4$ closer together.}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   827  {\vspace{5cm}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   828  \item Would it be more plausible for $W_1$ to be \emph{monosemous} or \emph{polysemous}, and why?\\
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   829  \phantom{x}\hfill{\em (5 points)}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   830  \solution{Polysemous, because while it shifts in sense closer to $W_5$ via $D_2$. its sense in $D_1$ appears distinct in terms of contextual co-occurrence.}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   831  {\vspace{5cm}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   832  \end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   832  \end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   833  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   834  %\newpage
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   835  %\Question{\Large Distributional Semantics}{15}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   835  %\Question{\Large Distributional Semantics}{15}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   836  %\begin{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   837  %\item Was this question written by GPT-4? 
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   838  %\hfill{\em (10 points)}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   839  %\solution{GPT-5 says no.}{\vspace{5cm}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   840  %\end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   840  %\end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   841  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   842  \newpage
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   843  \Question{\Large Deep Learning}{20}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   843  \Question{\Large Deep Learning}{20}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   844  \begin{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   845  \item What was one of the biggest problems with Recurrent Neural Networks?\hfill{\em (5 points)}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   846  \solution{Use your best judgment here. What I told them in class (multiple times) was vanishing gradients. They will probably have some pretty good other answers that will be worth points as well.}{\vspace{7cm}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   847  \item  Language ID, introduced in the Deep Learning Lecture, is what type of Machine Learning Problem?\hfill{\em (10 points)}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   848  \solution{I'm looking for ``classification'' and ``supervised learning''. I imagine this will get a range of answers beyond these two. So either of the 2 are correct, plus possibly many more}{\vspace{7cm}}
+\item What changed about a decade ago to usher in the era of machine learning? Please only give ONE answer. There are multiple and any ONE that is correct will get full points.\hfill{\em (5 points)}
+\solution{I'm looking for either ``size of data'' or ``compute/gpus''. If they give another answer that makes sense, sure. If they give more than one answer, give a 0}{\vspace{7cm}}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   849  \end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   849  \end{enumerate}
+2026-11-12:07:09:05 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   850  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   851  \newpage
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   852  \Question{\Large Information Retrieval}{10}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   852  \Question{\Large Information Retrieval}{10}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   853  \begin{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   853  \begin{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   854  \item Why are cross-encoders usually only used as rerankers? 
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   855  \hfill{\em (2 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   856  \solution{Because the documents cannot be preprocessed or indexed like bi-encoders do.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   856  \solution{Because the documents cannot be preprocessed or indexed like bi-encoders do.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   856  \solution{Because the documents cannot be preprocessed or indexed like bi-encoders do.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   857  \item What is the common approach for creating a numerical value for pointwise ranking using a generative model?
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   858  \hfill{\em (3 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   859  \solution{
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   860  Take the softmax between the probability of generating yes over no (or any other reasonable pairs). 
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   861  Other acceptable answers could be (a) training a head/pooler on the (last) hidden states to produce a numerical score, or (b) prompting the model to give a graded rating. 
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   862  However, since option (b) is likely to produce many ties among the candidate documents, this answer can only receive 2 points. 
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   863  }{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   863  }{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   864  \item What are the essential ingredients for using Cranfield evaluation?  
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   865  \hfill{\em (3 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   866  \solution{A fixed document collection (1 point), a set of topics/queries (1 point), and relevance judgments/labels for a subset of documents for each topic (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   866  \solution{A fixed document collection (1 point), a set of topics/queries (1 point), and relevance judgments/labels for a subset of documents for each topic (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   867  \item Why is retrieval still important for LLM assistant systems? 
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   868  \hfill{\em (2 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   869  \solution{Because the generation model has limitations in knowledge, particularly events after the model was trained (1 point), and retrieval provides grounded information for improving the trustworthiness of the system output (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   869  \solution{Because the generation model has limitations in knowledge, particularly events after the model was trained (1 point), and retrieval provides grounded information for improving the trustworthiness of the system output (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   869  \solution{Because the generation model has limitations in knowledge, particularly events after the model was trained (1 point), and retrieval provides grounded information for improving the trustworthiness of the system output (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   869  \solution{Because the generation model has limitations in knowledge, particularly events after the model was trained (1 point), and retrieval provides grounded information for improving the trustworthiness of the system output (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   869  \solution{Because the generation model has limitations in knowledge, particularly events after the model was trained (1 point), and retrieval provides grounded information for improving the trustworthiness of the system output (1 point).}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   870  \end{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   870  \end{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   871  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   872  \newpage
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   873  \Question{\Large Large Language Models}{10}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   873  \Question{\Large Large Language Models}{10}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   874  You want to build a sentiment detection model (i.e., determining if a text's sentiment is either positive or negative) using either a BERT-style model or a Large Languege Model (LLM).
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   875  \begin{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   876  \item What data do you need to set this up as a supervised learning task?\hfill{\em (2 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   877  \solution{Text with annotation as positive/negative}{\vspace{2cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   878  \item How would you build such a model based on a pre-existing BERT-style model? Provide some details about the model architecture of your added components.\\ \phantom{x}\hfill{\em (4~points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   879  \solution{Encode the text with the BERT model, and then add a custom classifier, such as a max-pooling layer, followed by a number of feed-forward layers.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   880  \item How would you use a Large Language Model to handle this task? Name at least three methods that you may deploy.\hfill{\em (4 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   881  \solution{In-context learning: describe the task to the LLM. Few-shot learning: provide examples in prompt. Fine-tune the model.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   882  \end{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   882  \end{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   883  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   884  \newpage
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   885  \Question{\Large Preference Training}{15}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   885  \Question{\Large Preference Training}{15}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   886  You want to build a short story generation bot with the help of a Large Language Model. You want the stories to be engaging, creative, and have a twist. Your plan is to use reinforcement learning with human feedback.
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   887  \begin{enumerate}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   888  \item You have access to human annotators. What will you ask them to do?\hfill{\em (4 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   889  \solution{Rate stories generated by the model using the three criteria.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   890  \item What model will you train with the human-annotated data?
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   891  \hfill{\em (3 points)}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   892  \solution{Reward/Preference model.}{\vspace{4cm}}
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   893  \item You will be using Direct Preference Optimization. The formula for this is:
+2026-11-12:07:09:06 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   894  \begin{equation*}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   895  \text{Loss}(x,y_w,y_l) = \log \text{sigmoid} \Big( \beta \log \frac{\pi_\theta(y_w|x)}{\pi_\text{ref}(y_w|x)} - \beta \log \frac{\pi_\theta(y_l|x)}{\pi_\text{ref}(y_l|x)} \Big)
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   896  \end{equation*}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   897  Explain in a sentence each, what the terms in this equation refer to, given your setup.\\ \phantom{x}\hfill{\em (8 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   898  \begin{enumerate}\itemsep 10mm
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   899      \item $y_w$: \solution{Story that the reward model prefers}{}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   900      \item $y_l$: \solution{Story that the reward model disprefers}{}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   901      \item $\pi_\theta$: \solution{The adapted LLM you are training}{}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   902      \item $\pi_\text{ref}$: \solution{The original LLM}{}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   903  \end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   904  \end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   904  \end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   905  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   906  %\newpage
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   907  %\Question{\Large Neural and Symbolic Language Processing}{10}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   907  %\Question{\Large Neural and Symbolic Language Processing}{10}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   908  %You want to build a AI system consisting of both neural and symbolic agentic components that is able to answer questions about economic data backed by databases from institutions such as the Federal Reserve. 
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   908  %You want to build a AI system consisting of both neural and symbolic agentic components that is able to answer questions about economic data backed by databases from institutions such as the Federal Reserve. 
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   909  %One example question may be: {\em Over the last 20 years, when have there been higher gains employment in education compared to healthcare in the United States?}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   909  %One example question may be: {\em Over the last 20 years, when have there been higher gains employment in education compared to healthcare in the United States?}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   910  %Describe at least three components of such a system.\hfill{\em (10 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   910  %Describe at least three components of such a system.\hfill{\em (10 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   911  %\begin{enumerate}\itemsep 2mm
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   912  %\item Component 1:\solution{LLM-based SQL Generator: Convert the question into an SQL query. Neural component which relies on the superior language understanding abilities of LLMs.}{\vspace{5cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   913  %\item Component 2:\solution{SQL Database: processes the SQL query and returns the relevant data for answering the question or even the answer itself. Symbolic component that relies on the superior ability of such process to deal precisely with a large set of data items.}{\vspace{5cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   914  %\item Component 3:\solution{Synthesizer: takes numerical results or selected data from the SQL database agent and formulates an answer in natural language. Neural component that relies on LLMs ability to generate fluent text and interpret informtation.}{\vspace{5cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   915  %\end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   915  %\end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   916  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   917  \newpage
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   918  \Question{\Large Machine Translation}{10}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   918  \Question{\Large Machine Translation}{10}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   918  \Question{\Large Machine Translation}{10}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   919  Answer the following questions with one or two sentences each, using the following figure of a RNN with Attention architecture if needed.\\[0.2cm]
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   920  \vspace{-1cm}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   921  \begin{center}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   922  \includegraphics[scale=0.3]{mt-rnn.png}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   923  \end{center}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   924  \begin{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   924  \begin{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   925  \item What would happen to the Machine Translation (MT) system output if the input context $c_i$ is removed or set to zero? 
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   926  \hfill{\em (4 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   927  \solution{The MT system will not be using any input information from the encoder. It might just hallucinate and not translate.}{\vspace{4cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   927  \solution{The MT system will not be using any input information from the encoder. It might just hallucinate and not translate.}{\vspace{4cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   928  \item Explain what is the intuition behind $\alpha_{ij}$ in the equation $c_i = \sum_j \alpha_{ij} h_j$? 
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   929  \hfill{\em (4 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   930  \solution{$\alpha_{ij}$ represents the relevance/importance of input word at position $j$ for the decoding step $i$. Words with high $\alpha_{ij}$ will be emphasized in weighted average $c_i$ and therefore will impact the decoding of the next word.}{\vspace{4cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   930  \solution{$\alpha_{ij}$ represents the relevance/importance of input word at position $j$ for the decoding step $i$. Words with high $\alpha_{ij}$ will be emphasized in weighted average $c_i$ and therefore will impact the decoding of the next word.}{\vspace{4cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   931  \item Suppose we replaced all $h_j$ (contextual embedding) in the $\alpha_{ij}$ and $c_i$ equations with the input word embeddings instead. What do you think will happen? 
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   932  \hfill{\em (2 points)}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   933  \solution{All reasonable answers will be accepted. For example: The MT system might still work since we are still giving it word embeddings, but it might perform worse since the embeddings are static. Alternative example: The MT system will fail because it can no longer contextual embeddings are extremely important. Yet another example: Transformers do not use RNN encoders, so maybe it will be ok given sufficient training.}{\vspace{5cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   933  \solution{All reasonable answers will be accepted. For example: The MT system might still work since we are still giving it word embeddings, but it might perform worse since the embeddings are static. Alternative example: The MT system will fail because it can no longer contextual embeddings are extremely important. Yet another example: Transformers do not use RNN encoders, so maybe it will be ok given sufficient training.}{\vspace{5cm}}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   934  \end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   934  \end{enumerate}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   935  \newpage
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   936  \section*{Extra Space}
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   937  \newpage
+2026-11-12:07:09:07 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   938  \end{document}
+2026-11-12:07:09:08 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   938  \end{document}
+2026-11-12:07:09:08 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   938  \end{document}
+2026-11-12:07:09:08 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   938  \end{document}
+2026-11-12:07:09:11 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   939  ls -lt | head
+2026-11-12:07:09:15 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   940  rm 0\{textcolor\{blue\}\{#1\}\}else\{#2\}fi\} 
+2026-11-12:07:09:24 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   941  rm -r documentclass\[12pt\]\{article\}/
+2026-11-12:07:09:28 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   942  ls -lt | head
+2026-11-12:07:09:42 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   943  mkdir first-midterm-2025
+2026-11-12:07:09:47 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   944  mv mt-rnn.png first-midterm-2025/
+2026-11-12:07:10:02 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   945  vi first-midterm-2025.tex 
+2026-11-12:07:10:12 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   946  pdflatex first-midterm-2025
+2026-11-12:07:10:22 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   947  vi first-midterm-2025.tex 
+2026-11-12:07:10:32 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   948  mv first-midterm-2025.pdf first-midterm-2025-solution.pdf
+2026-11-12:07:10:37 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   949  pdflatex first-midterm-2025
+2026-11-12:07:10:40 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   950  git add first-midterm-2025
+2026-11-12:07:10:42 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   951  git add first-midterm-2025*pdf
+2026-11-12:07:10:44 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   952  git add first-midterm-2025*tex
+2026-11-12:07:10:48 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   953  git status
+2026-11-12:07:10:59 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   954  rm *aux
+2026-11-12:07:11:04 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   955  rm *log
+2026-11-12:07:11:13 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   956  git status
+2026-11-12:07:11:30 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   501  cd LaTex/jhu-intro-hlt.github.io/exam/
+2026-11-12:07:17:36 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   956  git status
+2026-11-12:07:18:03 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   957  vi first-midterm-2025.tex 
+2026-11-12:07:18:09 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   958  pdflatex first-midterm-2025
+2026-11-12:07:18:12 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   959  open first-midterm-2025.pdf 
+2026-11-12:07:18:23 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   960  git add first-midterm-2025.pdf
+2026-11-12:07:18:25 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   961  git add first-midterm-2025.tex
+2026-11-12:07:18:32 macbookphi2115.win.ad.jhu.edu /Users/pkoehn/LaTex/jhu-intro-hlt.github.io/exam   962  rm first-midterm-2025.aux first-midterm-2025.log 
